@@ -160,7 +160,7 @@ b. ¿Cuántos se venderán si se han regalado 800 ejemplares?
 
 **(Cálculo del monto)**. Se pide prestado a un banco Bs. 7.500.000 para ser pagado en dos años, ganando interés de 28% anual. Hallar la cantidad de dinero que deberá devolverse al banco si
 
-a) El interés es simple.
+a) El interés es simple. asdfasdf
 
 b) El interés se compone anualmente.
 

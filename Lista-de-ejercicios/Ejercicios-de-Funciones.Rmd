@@ -1,0 +1,192 @@
+---
+title: "Ejercicios de Funciones"
+subtitle: "Cálculo"
+author: "http://synergy.vision/"
+output:
+  pdf_document:
+      toc: yes
+      toc_depth: 4
+      includes:
+        in_header: ./preambulo.tex
+  html_document: default
+fontsize: 12pt
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+\newpage
+
+# Ejercicio 1
+
+Hallar el dominio y el rango de las funciones dadas:
+
+a) $$f(x) =\sqrt{X - 9} $$
+
+b) $$g(x) =\displaystyle\frac{\sqrt{16-X^2}}{3}$$
+
+c) $$h(x) =\displaystyle\frac{\sqrt{X^2-4}}{2}$$
+
+d) $$u(x) = \sqrt[3]{X-2}$$
+
+e) $$y = \frac{1}{\sqrt{x^2-4-2}}$$
+
+f) $$y = \sqrt{4-\frac{1}{x}}$$
+
+
+# Ejercicio 2
+
+Un hotel tiene 40 habitaciones. El gerente sabe que cuando el precio por
+habitación es de Bs. 30.000 todas las habitaciones son alquiladas, pero por cada 5.000 bolívares de aumento una habitación se desocupa. Si el precio de mantenimiento de una habitación ocupada es de Bs. 4.000. Expresar la ganancia del hotel como función del número x de habitaciones alquiladas.
+
+# Ejercicio 3
+
+Cuando la producción diaria no sobrepasa de 1.000 unidades de cierto artículo, se tiene una utilidad de Bs. 4.000 por artículo; pero si el número de artículos producidos excede los 1.000, la utilidad, para los excedentes, disminuye en Bs. 10 por cada artículo que excede los 1.000. Expresar la utilidad diaria del productor como función del número x de artículos producidos.
+
+# Ejercicio 4
+
+Una finca está sembrada de mangos a razón de 80 plantas por hectárea. Cada
+planta produce un promedio de 960 mangos. Por cada planta adicional que se
+siembre, el promedio de producción por planta se reduce en 10 mangos. Expresar la producción p(x) de mangos por hectárea como función del número x de plantas de mango sembradas por hectárea.
+
+# Ejercicio 5
+
+Usando la gráfica de $f(x)=x^3$, bosquejar los gráficos de:
+
+a) $y=x^3-3$
+
+b) $y={(x-1)}^3$
+
+c) $y=-x^3+1$
+
+d) $y=-(x-1)^3+1$
+
+# Ejercicio 6
+
+Utilizando la gráfica de la función y = sen x y las técnicas de traslación y reflexión, graficar la función 
+
+$y=1-sen(x-\frac{\pi}{2})$
+
+# Ejercicio 7
+
+En los siguientes problemas hallar f + g, f-g, fg y $\frac{f}{g}$ con sus respectivos dominios:
+
+a) $f(x)=\frac{1}{1-x},\quad g(x)=\sqrt{2-x}$
+
+b) $f(x)=\sqrt{16-x^2}, \quad g(x)=\sqrt{x^2-4}$
+
+c) $f(x)=\frac{1}{\sqrt4-x^2}, \quad g(x)=\sqrt[3]{x}$
+
+# Ejercicio 8
+
+En los siguiente problemas hallar f ó g, g ó f, f ó f y g ó g, con sus respectivos dominios:
+
+a) $f(x)=x^2-1, \quad g(x)=\sqrt{x}$
+
+b) $f(x)=\frac{1}{1-x}, \quad g(x)=\sqrt[3]{x}$
+
+\newpage
+
+# INTERES SIMPLE
+
+Un capital colocado a interés simple permanece constante durante toda la
+operación . El interés ganado no genera interés. Es fácil deducir que: Un capital **P** colocado durante t años a **interés simple** y a **una tasa anual** de **100r%** produce un monto de:
+
+| M(t) = P(1 + rt)      (1) |
+|---------------------------|
+
+# INTERES COMPUESTO
+
+En UD capital a **interés compuesto**, el interés ganado en cada periodo es agregado al capital, para ganar interés en el próximo período; o sea, el interés se capitaliza o se compone después de cada periodo. Este periodo puede ser de 1 año (anual), 6 meses (semestral: 2 periodos al año), 3 meses (trimestral: 4 periodos al año), 1 mes (mensual: 12 periodos al año), etc.
+
+Además de la **tasa anual**, se tiene la **tasa periódica**, que es el tanto por ciento por período de capitalización. Si el año está dividido en n períodos iguales, entonces
+
+$$\text{Tasa periódica}=\frac{Tasa\quad anual}{n}$$
+
+Así, si la tasa anual es de 24% y el periodo de capitalización es de 3 meses (4 períodos al año) entonces la tasa periódica es de $\frac{24}{4}\%=6\%$
+
+Un capital **P** que se coloca durante **t años** a una tasa de **100r%** anual que se capitaliza (se compone) n veces al año produce un monto:
+
+| M(t) = P(1 + $\frac{r}{n})^{nt}$     (2) |
+|--------------------------------------|
+
+
+# INTERES COMPUESTO CONTINUO
+
+Cuando el número n de periodos de capitalización crece ilimitadamente; es decir, cuando $n\to+\infty$  , se obtiene el interés compuesto continuo. Aquí, la capitalización es instantánea y se la denomina **capitalización continua.**
+Un **capital P** colocado durante t años a un interés anual de 100r % que se capitaliza continua mente , produce un monto de:
+
+| M(t) = Pe$^{rt}$       (3) |
+|--------------------------|
+
+Está fórmula se obtiene de la anterior tomando límite.
+
+\newpage
+
+# Ejercicio 9
+
+**(Utilidades)**. Las utilidades de una compañía crecen exponencialmen te: $f(t) = Ae^{kt}$. En 1.995 éstas fueron de 3 millones de dólares y en el 2.000 fueron de 4,5 millones. ¿Cuáles son las utilidades en 2.005?
+
+# Ejercicio 10
+
+**(Producto Nacional Bruto)**. El producto nacional bruto (P.N.B.) de cierto país, t años después de 1.995, es de f(t) millones de dólares, donde
+$$f(t)=P(10)^{kt},\text{P y k son constantes}$$
+Si en 1.995 el P.N.B. fue de 8.000 millones de dólares y en el 2,000 fue de 16.000 millones de dólares. ¿Cuál será el P.N.B. en el año 2.010?
+
+# Ejercicio 11
+
+**(Venta de libros)**. Una editorial, estudiando el mercado, ha descubierto que si se distribuyen x miles de ejemplares gratuitos de un texto, la venta de dicho texto será, aproximadamente,
+
+$$V(x)=30-18^{0,3x}\text{miles de ejemplares}$$
+
+a. ¿Cuántos textos se venderán si no se handistribuido ejemplares gratuitos?
+
+b. ¿Cuántos se venderán si se han regalado 800 ejemplares?
+
+# Ejercicio 12
+
+**(Cálculo del monto)**. Se deposita un capital de 12 millones de dólares en un banco que paga 14% anual de interés compuesto continuo ¿En cuántos años se tendrá un monto de 21 millones?
+
+# Ejercicio 13
+
+**(Venta de un texto)**. Un nuevo texto de cálculo saldrá al mercado. Se estima que si se obsequian x miles de ejemplares a los profesores, en el primer año se venderán $f(x) =12 - 5e^{-O,2x}$ miles de ejemplares. ¿Cuántos textos deben obsequiarse si se quiere una venta en el primer año de 9.000 ejemplares?
+
+# Ejercicio 14
+
+**(Producto Nacional Bruto)**. El producto nacional bruto (P.N.B.) de cierto paÍs esta creciendo exponencialmente. En 1.995 fue 60.000 millones y en 2.000 fue de 70.000 millones.¿Cuál es el PNB en el 2.005?
+
+# Ejercicio 15
+
+**(Cálculo del monto)**. Se pide prestado a un banco Bs. 7.500.000 para ser pagado en dos años, ganando interés de 28% anual. Hallar la cantidad de dinero que deberá devolverse al banco si
+
+a) El interés es simple.
+
+b) El interés se compone anualmente.
+
+c) El interés se compone trimestralmente.
+
+d) El interés se compone mensualmente.
+
+e) Elinterés se compone continuamente.
+
+# Ejercicio 16
+
+**(Cálculo del principal)**. ¿Qué capital produce un monto de \$2.500.000 al final de 5 años si la lasa es de 16 % anual que se compone:
+
+a) Trimestralmente? 
+
+b) Continuamente?
+
+# Ejercicio 17
+
+**(Cálculo del monto)**. En el año 1.626 el holandés Piter Minuit compró a los nativos la "isla" de Manhattan (Nueva York), por 24 dólares. Suponga que los nativos depositaron estos 24 dólares en un banco, ganando una tasa anual de 5 % que se compone continuamente. ¿Cuál es monto en el año 2.000?
+
+# Ejercicio 18
+
+El gerente de un mercado de pulgas de fin de semana sabe por experiencia que si cobra dólares por un espacio alquilado en el mercado, entonces la cantidad de espacios que puede alquilar viene dada por la ecuación
+
+
+
+
+

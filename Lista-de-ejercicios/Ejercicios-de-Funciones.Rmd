@@ -186,7 +186,87 @@ b) Continuamente?
 
 El gerente de un mercado de pulgas de fin de semana sabe por experiencia que si cobra dólares por un espacio alquilado en el mercado, entonces la cantidad de espacios que puede alquilar viene dada por la ecuación
 
+a) Dibuje un gráfico de esta función lineal. (Recuerde que el cargo por alquiler por espacio y el número de espacios alquilados no pueden ser cantidades negativas).
+
+b) ¿Qué representan la pendiente, el intercepto y el intercepto de la gráfica?
+
+# Ejercicio 19
+
+El gerente de una fábrica de muebles descubre que cuesta \$2200 para fabricar 100 sillas en un día y \$4800 para producir 300 sillas en un día
+
+a) Exprese el costo en función de la cantidad de sillas producidas, suponiendo que sea lineal. Luego dibuja el gráfico.
+
+b) ¿Cuál es la pendiente del gráfico y qué representa?
+
+c) ¿Cuál es la intersección y del gráfico y qué representa?
+
+# Ejercicio 20
+
+El costo mensual de conducir un automóvil depende de la cantidad de millas recorridas. Lynn descubrió que en mayo le costó \$380 manejar 480 millas y en junio le costó \$460 manejar 800 millas.
+
+a) Exprese el costo mensual como una función de la distancia impulsada asumiendo que una relación lineal da un modelo adecuado.
+
+b) Use la parte (a) para predecir el costo de conducir 1500 millas por mes.
+
+c) Dibuje el gráfico de la función lineal. ¿Qué representa la pendiente?
+
+d) ¿Qué representa el C-interceptar?
+
+e) ¿Por qué una función lineal proporciona un modelo adecuado en esta situación?
+
+# Ejercicio 21
+
+Si invierte $x$ dólares al 4% de interés compuesto anualmente, entonces el monto $A(x)$ de la inversión después de un año es $A(x)=1.04x$. Encontrar $A\circ A, A\circ A\circ A,$y $A\circ A\circ A\circ A$. ¿Qué
+representan estas composiciones? Encuentre una fórmula para la composición de n de copias de $A$.
+
+# Ejercicio 22
+
+arifas de servicios públicos Westside Energy cobra a sus clientes de electricidad una tarifa base de \$6.00 por mes, más $10\cancel{c}$ por kilovatio hora (kWh) por los primeros 300 kWh usados y $6\cancel{c}$ por kWh para todo uso superior a 300 kWh. Supongamos que un cliente usa x kWh de electricidad en un mes.
+
+a) Exprese el costo mensual E como una función definida por partes de $x$.
+
+b) Grafica la función $E$ para $0\le x\le 600.$
+
+# Ejercicio 23
+
+**Ingresos, costos y ganancias** Una imprenta hace adhesivos para las campañas electorales. Si se piden $x$ etiquetas $(dónde x<10,000)$, entonces el precio por etiquetas para parachoques es en dólares $0.15-0.000002x$, y el costo total de producir la orden es $0.095x-0.0000005x^2$ dólares.
+
+# Ejercicio 24
+
+Use el hecho de que
+
+$$\text{ingresos} =\text{precio por artículo}\times\text{cantidad de artículos vendidos}$$
+
+para expresar $R(x)$, los ingresos de una orden de $x$ etiquetas, como
+producto de dos funciones de $x$.
 
 
+# Ejercicio 25
 
+Use el hecho de que
 
+$$\text{lucro}=\text{ingresos}-\text{costos}$$
+
+para expresar, la ganancia en un orden de $x$ etiquetas, como una diferencia de dos funciones de $x$.
+
+# Ejercicio 26
+
+Para sus servicios, un investigador privado requiere una tarifa de retención de \$500 más \$80 por hora. Sea $x$ el número de horas que el investigador pasa trabajando en un caso
+
+a) Encuentre una función $f$ que modele la tarifa del investigador como una función de $x$.
+
+b) Encuentra $f^-1$. ¿Qué representa $f^1$?
+
+c) Encuentre $f^1$(1220). ¿Qué representa tu respuesta?
+
+# Ejercicio 27
+
+**Tipos de cambio** El valor relativo de las monedas fluctúa todos los días. Cuando se escribió este problema, un dólar canadiense valía 1.0573 dólares estadounidenses.
+
+a) Encuentre una función $f$ que proporcione el valor $f(x)$ en dólares de EE. UU. de $x$ dólares canadienses.
+
+b) Encuentra $f^1$. ¿Qué representa $f^1$?
+
+c) ¿Cuánto dinero canadiense valdría \$12,250 en moneda de EE. UU.?
+
+# Ejercicio 28

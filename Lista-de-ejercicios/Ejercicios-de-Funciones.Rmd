@@ -270,3 +270,169 @@ b) Encuentra $f^1$. ¿Qué representa $f^1$?
 c) ¿Cuánto dinero canadiense valdría \$12,250 en moneda de EE. UU.?
 
 # Ejercicio 28
+
+**En comeTax** En un determinado país, el impuesto sobre los ingresos inferiores o iguales a 20,000€ es del 10%. Para los ingresos que superan los 20.000 €, el impuesto es de 2000 € más el 20% del importe superior a 20.000 €.
+
+a) Encuentre una función $f$ que dé el impuesto a la renta sobre un ingreso $x$. Exprese $f$ como una función definida por partes.
+
+b) Encuentra $f^{-1}$. ¿Qué representa $f^{-1}$?
+
+c) ¿Cuánto ingreso requeriría pagar un impuesto de € 10,000?
+
+# Ejercicio 29
+
+**Descuentos múltiples** Un concesionario de automóviles anuncia un descuento del 15% en todos sus automóviles nuevos. Además, el fabricante ofrece un descuento de \$1000 en la compra de un automóvil nuevo. Deje $x$ representar el precio de etiqueta del coche.
+
+a) Supongamos que solo se aplica el descuento del 15%. Encuentre una función $f$ que modele el precio de compra del automóvil en función del precio de etiqueta $x$.
+
+b) Supongamos que solo se aplica el descuento de \$1000. Encuentre una función $g$ que modele el precio de compra del automóvil en función del precio de etiqueta $x$.
+
+c) Encuentre una fórmula para $H=f\circ{g}$.
+
+d) Encuentre $H^{-1}$. ¿Qué representa $H^{-1}$?
+
+e) Encuentre $H^{-1}$(13,000). ¿Qué representa tu respuesta?
+
+# Ejercicio 30
+
+**Pizza Costo** Marcello's Pizza cobra un precio base de \$7 por una pizza grande más \$2 por cada cobertura. Por lo tanto, si pide una pizza grande con coberturas $x$, la función otorga el precio de su pizza $f(x)=7+2x$. Encuentra $f^{-1}$. ¿Qué representa la función $f^{-1}$?
+
+# Ejercicio 31
+
+Un editor estima que el costo $C(x)$ de imprimir una corrida de $x$ copias de cierto libro de texto de matemáticas está dado por la función $C(x)=5000+30x-0.001x^2.$
+
+a) Encuentre $C(1000)$ y $C(10,000)$.
+
+b) ¿Qué representan sus respuestas en la parte (a)?
+
+c) Encuentra $C(0)$. ¿Qué representa este número?
+
+# Ejercicio 32
+
+Reyna trabaja como vendedora en la división de electrónica de una tienda por departamentos. Ella gana un salario base semanal más una comisión basada en el precio minorista de los productos que ha vendido. Si ella vende $x$ dólares en bienes en una semana, sus ganancias para esa semana están dadas por la función $E(x)=400+0.03x.$
+
+a) Encuentre $E(2000)$ y $E(15,000).$
+
+b) ¿Qué representan sus respuestas en la parte a?
+
+c) Encuentre $E(0).$ ¿Qué representa este número?
+
+d) De la fórmula para $E$, determine qué porcentaje gana Reyna en los bienes que vende.
+
+# Ejercicio 33
+
+Ella está ahorrando para su jubilación al hacer depósitos regulares en un plan 401(k). A medida que aumenta su salario, descubre que puede depositar cantidades crecientes cada año. Entre 1995 y 2008, el monto anual (en dólares) que depositó fue dado por la función $D(t)=3500+15t^2$, donde $t$ representa el año del depósito medido desde el inicio del plan (de modo que 1995 corresponde a $t=0$ y 1996 corresponde a $t=1,$ y así sucesivamente).
+
+a) Encuentra $D(0)$ y $D(15)$. ¿Qué representan estos valores?
+
+b) Suponiendo que sus depósitos sigan siendo modelados por la función D, ¿en qué año depositará \$17,000?
+
+c) Encuentre la tasa promedio de cambio de $D$ entre $t=0$ y $t=15.$ ¿Qué representa este número?
+
+# Ejercicio 34
+
+La ganancia $P$ (en dólares) generada al vender $x$ unidades de un determinado producto está dada por
+
+$$P(x)=-1500+12x-0,0004x^2$$
+
+¿Cuál es el beneficio máximo y cuántas unidades se deben vender para generarlo?
+
+# Ejercicio 35
+
+Encuentre los valores máximos y mínimos locales de la función y los valores de $x$ a los que ocurren. Establezca cada respuesta correcta en dos decimales.
+
+# Ejercicio 36
+
+Si $f(x)=1+x^2-\quad \text{y}\quad g(x)=\sqrt{x-1},\text{encuentra el siguiente}$
+
+a) $f\circ{g}$
+
+b) $g\circ{f}$
+
+c) $(f\circ{g})(2)$
+
+d) $(f\circ{f})(2)$
+
+e) $f\circ{g}\circ{f}$
+
+f) $g\circ{f}\circ{g}$
+
+# Ejercicio 37
+
+**FUNCIÓN DE COSTOS** Los costos fijos por día para una tienda de donuts son de \$300, y los costos variables son de \$1.75 por cada docena de donas producidas. Si se producen diariamente $x$ docenas de donuts, exprese el costo diario $C(x)$ como una función de $x.$
+
+# Ejercicio 38
+
+**FUNCIÓN DE COSTOS** Un fabricante de reproductores de MP3 ha fijado un costo diario de 15.700 yuanes chinos, y cuesta 178 yuanes producir un solo reproductor de MP3. Si el fabricante produce $x$ reproductores diariamente, exprese el costo diario $C$ en yuan en función de $x.$
+
+# Ejercicio 39
+
+**COSTO DEL TELÉFONO CELULAR** Dado que Don generalmente toma prestado el teléfono celular de su compañero de cuarto para llamadas de larga distancia, elige un plan económico para su propio teléfono con un cargo de acceso mensual y un cargo variable por cada hora de llamadas utilizada. La función
+
+$$C(h)=17+2.40h$$
+
+se usa para calcular la factura mensual de Don, donde $C$ es el costo en dólares y $h$ es horas de tiempo de uso. Traduzca esta ecuación en una declaración verbal que podría usar para explicar el cargo mensual de Don.
+
+# Ejercicio 40
+
+**COSTO DE INTERNET DE ALTA VELOCIDAD** Una universidad ofrece Internet de alta velocidad en dormitorios. La tarifa de acceso mensual en dólares se calcula utilizando la función
+
+$$A(m)=15+0.02m$$
+
+donde $m$ es la cantidad de minutos pasados en línea. Traduzca esta ecuación en una declaración verbal que pueda usarse para explicar los cargos mensuales a un estudiante de primer año entrante.
+
+# Ejercicio 41
+
+**ALQUILER DE AUTOMÓVILES** Utilice los datos de la siguiente tabla  para construir un modelo definido por partes para el cargo de alquiler diario para un automóvil compacto que se conduce x millas.
+
+| Tipo de Vehículo | Cargo diario | Millas incluidas | Cargo por millaje |
+|:----------------:|:------------:|:----------------:|:-----------------:|
+| Compacto | \$32.00 | 100/día | \$0.16/milla |
+| Tamaño medio | \$41.00 | 200/día | \$0.18/milla |
+
+# Ejercicio 42
+
+**ALQUILER DE AUTOMÓVILES** Use los datos de la Tabla anterior (ejercicio 41) para construir un modelo definido por partes para el cargo de alquiler diario para un automóvil de tamaño medio que se conduce $x$ millas.
+
+# Ejercicio 43
+
+**COMISIONES DE VENTAS** Un sitio web de alto volumen paga a los vendedores para solicitar anuncios de colocación en su sitio. El personal de ventas gana \$200 por semana en salario y una comisión del 4% en todas las ventas de \$3,000 por semana. Además, si las ventas semanales son de \$8,000 o más, el vendedor recibe un bono de \$100. Encuentre una definición por partes para las ganancias semanales $E$ (en dólares) en términos de las ventas semanales $x$ (en dólares). Grafica esta función y encuentra los valores de $x$ en los que la función es discontinua. Encuentre las ganancias semanales para ventas de \$5,750 y de \$9,200.
+
+# Ejercicio 44
+
+**CARGOS DE SERVICIO** Los fines de semana y feriados, un servicio de reparación de plomería de emergencia cobra \$2.00 por minuto durante los primeros 30 minutos de una llamada de servicio y \$1.00 por minuto por cada minuto adicional. Exprese el cargo de servicio total $S$ (en dólares) como una función definida por partes de la duración de una llamada de servicio $x$ (en minutos). Grafica esta función y encuentra los valores de $x$ en los que la función es discontinua. Encuentre el cargo por una llamada de servicio de 25 minutos y por una llamada de servicio de 45 minutos.
+
+# Ejercicio 45
+
+**CARGOS TELEFÓNICOS** Las llamadas a 900 números se cargan a la persona que llama. Una línea de 900 números para consejos sobre juegos de fútbol americano universitario cobra \$4 por el primer minuto de la llamada y \$2 por cada minuto adicional (o fracción). Deje que $C$ sea el cargo por una llamada que dure $x$ minutos.
+
+a) Escribe una definición por partes de $C$ para $0<x\le6$, y dibuja el
+gráfico de $C.$
+
+b) ¿Se puede usar la función $f$ definida por $f(x)=4+2[[x]]$ para calcular los cargos por todos $x, 0<x\le6$? Justifica tu respuesta.
+
+# Ejercicio 46
+
+**IMPUESTO SOBRE LA RENTA ESTATAL** Los impuestos estatales a la renta de Connecticut para una persona que presenta una sola declaración son del 3% por los primeros \$10,000 de ingresos gravables y del 5% de los ingresos imponibles que superen los \$10,000. Encuentre una función definida por partes para los impuestos adeudados por un solo declarante con un ingreso de $x$ dólares y grafica esta función.
+
+# Ejercicio 47
+
+**IMPUESTO SOBRE LA RENTA DEL ESTADO** Los impuestos estatales sobre la renta de Connecticut para un individuo que presenta una declaración del jefe de familia son del 3% por los primeros \$16,000 del ingreso gravable y del 5% del ingreso gravable que excede los \$16,000. Encuentre una función definida por partes para los impuestos adeudados por un declarante del jefe de familia con un ingreso de $x$ dólares y grafica esta función.
+
+# Ejercicio 48
+
+**IMPUESTO SOBRE LA RENTA ESTATAL** Use el cronograma de la siguiente tabla para construir un modelo definido por partes para los impuestos adeudados para un contribuyente único con un ingreso imponible de $x$ dólares. Encuentre el impuesto sobre los siguientes ingresos: \$10,000, \$30,000, \$100,000.
+
+|  Estado | Impuestos sobre los ingresos imponibles | Impuesto sobre los ingresos no imponibles |   Impuestos   | Cantidad por encima de los impuestos |
+|:-------:|:---------------------------------------:|:-----------------------------------------:|:-------------:|:------------------------------------:|
+| Soltera |                   \$0                   |                  \$19,890                  |     5.35%     |                  \$0                 |
+|         |                  19,890                 |                   65,330                  | \$1,064+7.05% |                19,890                |
+|         |                  65,330                 |                    ...                    |  4,268+7.85%  |                65,330                |
+|  Casada |                    0                    |                   29,070                  |     5.35%     |                   0                  |
+|         |                  29,070                 |                  115,510                  |  1,555+7.05%  |                29,070                |
+|         |                 115,510                 |                   . . .                   |  7,649+7.85%  |                115,510               |
+
+# Ejercicio 49
+
+**IMPUESTO SOBRE LA RENTA ESTATAL** Use el cronograma de la Tabla anterior (ejercicio 48) para construir un modelo definido por partes para los impuestos adeudados para un contribuyente casado con un ingreso tributable de $x$ dólares. Encuentre el impuesto sobre los siguientes ingresos: \$20,000, \$60,000, \$200,000.
+

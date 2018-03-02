@@ -18,6 +18,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 \newpage
 
+# LIMITES 
 
 1. $\displaystyle\lim_{x\to 2}\frac{x^2+6}{x^2-3}$
 
@@ -268,6 +269,345 @@ b. $\displaystyle\lim_{x\to 2}f(x)$
 
 
 
+58. Hallar la función $f$ tal que:
+
+$\displaystyle\lim_{x\to 0^-} f(x)=3$ y que no exista $\displaystyle\lim_{x\to 0^+} f(x)$
 
 
+59. Pruebe, con un contraejemplo, que las proposiciones siguientes son falsas:
+
+a. Existe $\displaystyle\lim_{x\to a}[f(x)+g(x)]\Rightarrow$ Existe $\displaystyle\lim_{x\to a}f(x)$ y existe $\displaystyle\lim_{x\to a} g(x)$
+
+b. Existe $\displaystyle\lim_{x\to a}[f(x)g(x)]\Rightarrow$ Existe $\displaystyle\lim_{x\to a}f(x)$ y existe $\displaystyle\lim_{x\to a} g(x)$
+
+
+60. Probar que: existe $\displaystyle\lim_{x\to a}\frac{f(x)}{g(x)}\quad y\quad  \displaystyle\lim_{x\to a}g(x)=0\Rightarrow\displaystyle\lim_{x\to a}f(x)=0$
+
+De esta proposición se obtiene:
+
+$\displaystyle\lim_{x\to a}f(x)\ne0\quad y\quad \displaystyle\lim_{x\to a}g(x)=0\Rightarrow\text{no existe}\displaystyle\lim_{x\to a}\frac{f(x)}{g(x)}$
+
+
+En los siguientes problemas probar, mediante $\varepsilon\delta$, el límite indicado.
+
+61. $\displaystyle\lim_{x\to 2}(4x-3)=5$
+
+62. $\displaystyle\lim_{t\to 4}(9-3t)=-3$
+
+63. $\displaystyle\lim_{x\to -2}(\frac{x}{5}+1)=\frac{3}{5}$
+
+64. $\displaystyle\lim_{x\to 2}X^2=4$
+
+65. $\displaystyle\lim_{x\to -2}x^3=-8$
+
+66. $\displaystyle\lim_{x\to 1}\frac{x^2-1}{x-1}=2$
+
+67. $\displaystyle\lim_{x\to 1}(x^2+2x-6)=-3$
+
+68. $\displaystyle\lim_{x\to 1}(2x^2+3x-4)=-5$
+
+69. $\displaystyle\lim_{x\to 3}\frac{4}{x-1}=2$
+
+70. $\displaystyle\lim_{x\to 5}\frac{6}{4-x}=-6$
+
+71. $\displaystyle\lim_{x\to 1}\frac{2x}{5-2x}=\frac{2}{3}$
+
+72. $\displaystyle\lim_{x\to 4}\sqrt{x+5}=3$
+
+73. $\displaystyle\lim_{x\to 0}\frac{1}{|x|+1}=1$
+
+74. $\displaystyle\lim_{x\to 1/3}\frac{1+x}{x}=4$
+
+75. $\displaystyle\lim_{x\to a}c=c,$ c es una constante.
+
+76. $\displaystyle\lim_{x\to a}x=a$
+
+77. $\displaystyle\lim_{x\to a}x^n=a^n.$
+
+Sugerencia:$x^n-a^n=(x-a)(x^{n-1}+x^{n-2}a+...+xa^{n-2}+a^{n-1})$
+
+78. $\displaystyle\lim_{x\to a}\frac{1}{x}=\frac{1}{a}$ 
+
+Sugerencia seguir el esquema tomando $\beta=|a|/2$
+
+79. Probar: $\displaystyle\lim_{x\to a}f(x)=L\Rightarrow\displaystyle\lim_{x\to a}|f(x)|=|L|.$
+
+En los siguientes problemas, mediante el teorema del emparedado, probar que:
+
+80. $\displaystyle\lim_{x\to 0}x^2scn\frac{1}{x}=0$
+
+81. $\displaystyle\lim_{x\to 0}\frac{\sqrt{x^2+1}}{|x|+1}=1$
+
+82. $\displaystyle\lim_{x\to9} \left[2-\sqrt{2}cos\left(\frac{1}{x^2}\right)\right]=0$
+
+83. $\displaystyle\lim_{x\to 0}\frac{|x+1|-|x-1|}{\sqrt{3x^2+1}}=0$
+
+En los siguientes problemas hallar el límite indicado.
+
+84. $\displaystyle\lim_{x\to \pi}\frac{senx}{x-\pi}$
+
+85. $\displaystyle\lim_{x\to 0}\frac{sen2x}{sen3x}$
+
+86. $\displaystyle\lim_{x\to 0}\frac{1-cos2x}{4x^2}$
+
+87. $\displaystyle\lim_{x\to \pi/4}[tan2x-sec2x]$
+
+88. $\displaystyle\lim_{t\to 0}\frac{1-cost}{sent}$
+
+89. $\displaystyle\lim_{x\to 0}\frac{sen^2(x/2)}{senx}$
+
+90. $\displaystyle\lim_{x\to 1}\frac{sen^2(x-1)}{x^2-2x+1}$
+
+91. $\displaystyle\lim_{x\to 0}\frac{x-sen2x}{x-sen3x}$
+
+92. $\displaystyle\lim_{x\to 0}\frac{tanx-senx}{x^3}$
+
+93. $\displaystyle\lim_{x\to \pi/3}\frac{1-2cosx}{\pi-3x}$
+
+94. $\displaystyle\lim_{x\to \pi/4}\frac{cosx-senx}{cos2x}$
+
+95. $\displaystyle\lim_{x\to 0}\frac{\sqrt{2}-\sqrt{1+cosx}}{sen^2x}$
+
+96. $\displaystyle\lim_{x\to 1}\frac{cos\frac{\pi}{2}x}{1-\sqrt{x}}$
+
+97. $\displaystyle\lim_{x\to 0}\frac{1-cosx\sqrt{cosx}}{x{2}}$
+
+98. $\displaystyle\lim_{x\to n/2}\frac{1-senx}{(x-\pi/2)^2}$
+
+99. $\displaystyle\lim_{\theta\to 0} \frac{(1-cos\theta)^2}{tan^5\theta-tan^3\theta}$
+
+100. $\displaystyle\lim_{x\to 0} \frac{\sqrt{1+senx}-\sqrt{1-senx}}{tanx}$
+
+101. $\displaystyle\lim_{\theta\to a} \frac{sen\theta-sena}{sen(0/2)-sen(a/2)}$
+
+102. $\displaystyle\lim_{x\to 0}\frac{cos(a+x)-cos(a-x)}{x}$
+
+103. $\displaystyle\lim_{x\to 0}\frac{sen(a+x)-sen(a-x)}{tan(a+x)-tan(a-x)}$
+
+104. $\displaystyle\lim_{x\to \frac{\pi}{6}}\frac{2sen^2x-3senx+1}{2sen^2x+senx-1}$
+
+105. $\displaystyle\lim_{x\to \frac{\pi}{4}}\frac{2tan^2x-tanx-1}{2tan^2x-3tanx+1}$
+
+\newpage
+
+# CONTINUIDAD
+
+1. Probar que la función $f$ es continua en el punto 2.
+
+$f(x)=\left\{
+\begin{matrix}
+\displaystyle\frac{x^2-4}{x-2}&\text{si}\quad x\ne 2\\
+4& \text{si}\quad x=2
+\end{matrix}
+\right .$
+
+
+2. Definir $g(0)$ para que la función $g$ sea continua en 0. $g(x)=\frac{\sqrt{x+1}-1}{x}$
+
+3. Probar que la siguiente función es discontinua en el punto 3 y que 3 es el único punto de discontinuidad.
+
+$$
+g(x)=\left\{
+\begin{matrix}
+x^2-2x+2 &\text{si}\quad x <3\\
+4& \text{si}\quad x=3\\
+-x+8 &\text{si}\quad x >3
+\end{matrix}
+\right .
+$$
+
+En los problemas del 4 al 11, hallar los puntos de discontinuidad de las funciones dadas, indicando el tipo de discontinuidad:
+
+4. $f(x)=\frac{1}{x}$
+
+5. $g(x)=\frac{1}{x+2}$
+
+6. $h(x)=\frac{1}{x^2-4}$
+
+7. $f(x)=\frac{x-1}{x-5}$
+
+8. $g(x)=\frac{x+2}{(x-3)(x+8)}$
+
+9. $h(x)=\frac{x+3}{\sqrt{x-2}}$
+
+10. $f(x)=\frac{x^2-9}{|x-3|}$
+
+11. $g(x)=\frac{|x-1|}{(x-1)^3}$
+
+En los problemas del 12 al 15, graficar la función dada y localizar, mirando el gráfico, los puntos de discontinuidad.
+
+12. 
+$f(x)=\left\{
+\begin{matrix}
+-2&\text{si}& x <3\\
+1 &\text{si}& 3\le x<5\\
+4 &\text{si}& x \ge 5
+\end{matrix}
+\right .$
+
+
+13. 
+$g(x)=\left\{
+\begin{matrix}
+3x+1 &\text{si}& x <-2\\
+2x-1 &\text{si}& -2\le x<4\\
+\displaystyle-\frac{x}{2}+2 &\text{si}& x \ge 4
+\end{matrix}
+\right .$
+
+
+14. $f(x)=\left\{
+\begin{matrix}
+\displaystyle\frac{x^2}{2}+1&\text{si}& x <2\\
+2x-3 &\text{si}& x \ge 2
+\end{matrix}
+\right .$
+
+
+15. $g(x)=\left\{
+\begin{matrix}
+-1 &\text{si}& x \le-2\\
+\displaystyle\frac{1}{x+1} &\text{si}& -2 <x<2\\
+2x &\text{si}& x \ge 2
+\end{matrix}
+\right .$
+
+
+En los problemas del 16 al 19, hallar a y b para que las funciones dadas sean continuas es sus dominios.
+
+16. $g(x)=\left\{
+\begin{matrix}
+-2 &\text{si}& x <-1\\
+ax+b &\text{si}& -1\le x<3\\
+2 &\text{si}& x \ge 3
+\end{matrix}
+\right .$
+
+
+17. $g(x)=\left\{
+\begin{matrix}
+-sen^2x &\text{si}& x <\pi/4\\
+ax+b &\text{si}& \pi/4\le x\le\pi/3\\
+cos^2x &\text{si}& x \ge >/3
+\end{matrix}
+\right .$
+
+
+18. $g(x)=\left\{
+\begin{matrix}
+-2senx &\text{si}& x\le-\pi/2\\
+a senx+b &\text{si}& -\pi/2< x<pi/2\\
+cosx &\text{si}& x \ge\pi/2
+\end{matrix}
+\right .$
+
+
+19. $g(x)=\left\{
+\begin{matrix}
+a-x^2 sen\frac{\pi}{x}&\text{si}& x\ne 0\\
+b,  &\text{si}&  x=0
+\end{matrix}
+\right .$
+
+
+En los problemas del 20 al 25, hallar el conjunto de puntos donde la función dada es discontinua.
+
+20. $f(x)=[x+1/2]$
+
+21. $g(x)=[x/4]$
+
+22. $h(x)=1/[x]$
+
+23. $g(x)=[\sqrt{1-x^2}]$
+
+24. $g(x)=1-x+[x]-[1-x]$ 
+
+Sugerencia:
+$g(x)=\left\{
+\begin{matrix}
+1-x+2n,&\text{si}& n<x<n+1\\
+n,  &\text{si}&  x=n
+\end{matrix}
+\right .$
+
+
+25. $f(x)=\left\{
+\begin{matrix}
+0, &\text {si x es racional}\\
+1, &\text {si x es irracional}
+\end{matrix}
+\right .$
+
+Sugerencia: En todo intervalo abierto siempre existe un racional y un irracional.
+
+En los problemas del 26 al 28, probar que la ecuación dada una raíz en el intervalo indicado.  Aproximar la raíz con un error menor que 0,1.
+
+26. $x^3+1=3x,\quad en[1,2]$
+
+27. $2x^3-3x^2-12x+2=0,\quad en[-2,-1]$
+
+28. $cosx=x,\quad en[0,1]$
+
+29. Sea $f$ una función con dominio $\mathbb{R}$ tal que:
+
+$$f(x+y)=f(x)f(y),\quad \forall{x}\in\mathbb{R},\quad  \forall\quad y\quad \in\mathbb{R}.$$
+
+Si $f$ es continua en 0, probar que $f$ es continua en todo punto a.   
+
+
+\newpage
+
+# EJERCICIOS DE LIMITES INFINITOS Y ASINTOTAS VERTICALES
+
+1. $f(x)=\frac{1}{x-2}$
+
+2. $g(x)=\frac{1}{|x-2|}$
+
+3. $h(x)=\frac{1}{(x+1)^2}$
+
+4. $f(x)=\frac{x}{x-4}$
+
+5. $g(x)=\frac{x+1}{x-5}$
+
+6. $h(x)=\frac{1}{x(x+2)}$
+
+7. $f(x)=\frac{x}{x^2-2x+3}$
+
+8. $g(x)=\frac{x^2+4}{x^2-4}$
+
+9. $h(x)=x-\frac{1}{x}$
+
+En los problemas del 10 al 28 calcular el limite indicado.
+
+10. $\displaystyle\lim_{x\to 0^+}[x]/x$
+
+11. $\displaystyle\lim_{x\to 0^-}[x]/x$
+
+12. $\displaystyle\lim_{x\to (\pi/2)^-}secx$
+
+13. $\displaystyle\lim_{x\to (\pi/2)^+}secx$
+
+14. $\displaystyle\lim_{x\to (-3\pi/2)^+}secx$
+
+15. $\displaystyle\lim_{x\to 1^+} \left[\frac{x-1}{1-\sqrt{2x-x^2}}\right]$
+
+16. $\displaystyle\lim_{x\to 2^+} \left[\frac{x-2}{\sqrt{4x-x^2}-2}\right]$
+
+17. $\displaystyle\lim_{x\to 2^+}\frac{\sqrt{x^2-4}}{x-2}$
+
+18. $\displaystyle\lim_{x\to 0^+} \left[\frac{1}{x}-\frac{1}{x^2}\right]$
+
+19. $\displaystyle\lim_{x\to 0^+} \left[\frac{1}{x^2-4}-\frac{1}{x-2}\right]$
+
+20.
+
+21. $\displaystyle\lim_{y\to 1+} \left[\frac{1}{y-1}-\frac{3}{y^3-1}\right]$
+
+22.
+
+23.  $\displaystyle\lim_{x\to 0^-} \left[\frac{1}{x}-\frac{1}{|x|}\right]$
+
+24.
+
+25. $\displaystyle\lim_{x\to 0^+}x\quad cosec(x2)$
 

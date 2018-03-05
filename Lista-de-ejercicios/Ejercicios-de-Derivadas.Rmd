@@ -17,3 +17,189 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 \newpage
+
+# LA DERIVADA
+
+En los problemas del 1 al 9, hallar la derivada de la función en el punto a indicado.
+
+1. $f(x)=2\quad en\quad a=1$
+
+2. $g(x)=x\quad en\quad a=3$
+
+3. $h(x)=3x\quad en\quad a=2$
+
+4. $f(x)=4x-1\quad en\quad a=2$
+
+5. $g(x)=2x^2-5\quad en\quad a=-1$
+
+6. $h(x)=\frac{3}{x}\quad en\quad=-2$
+
+7. $f(x)=3x^2-5\quad en\quad a=-1$
+
+8. $g(x)=x+\frac{1}{x}\quad en\quad a=2$
+
+9. $h(x)=x^3+2\quad en\quad a=-1$
+
+10. Probar que la siguiente función es diferenciable en 0: 
+$$
+f(x)=
+\left\{
+\begin{matrix}
+x^2 & si & x\le0\\
+0 & si & x>0
+\end{matrix}
+\right .
+$$
+
+11. Probar que la siguiente función no es diferenciable en 0:
+
+$$
+f(x)=
+\left\{
+\begin{matrix}
+1+x & si & x\le0\\
+1-x & si & x>0
+\end{matrix}
+\right .
+$$
+
+12. Hallar los valores de a y b para que sea diferenciable en 1:
+
+$$
+f(x)=
+\left\{
+\begin{matrix}
+ax+b & si & x<1\\
+\sqrt[3]{x} & si & x\ge 1
+\end{matrix}
+\right .
+$$
+
+
+En los problemas del 13 al 21, hallar la derivada de la función indicada.
+
+13. $f(x)=2$
+
+14. $g(x)=x$
+
+15. $h(x)=3x$
+
+16. $f(x)=4x-1$
+
+17. $g(x)=2x^2-5$
+
+18. $h(x)=\frac{3}{x}$
+
+19. $f(x)=3x^2-5$
+
+20. $g(x)=x+\frac{1}{x}$
+
+21. $h(x)=x^3+2$
+
+22. Dada la función $f(x)=x^3+x^2$
+
+a. Hallar la pendiente de la recta tangente al gráfico de f en el punto donde $x=1.$
+
+b. Hallar la recta tangente al gráfico de f en el punto donde $x=1.$
+
+c. Hallar la recta normal al gráfico de f en el punto donde $x=1.$
+
+23. Dada la función $g(x)=\sqrt{x-3}$
+
+a. Hallar la pendiente de la recta tangente al gráfico de g en el punto donde $x=12$
+
+b. Hallar la recta tangente al gráfico de g en el punto donde $x=12.$
+
+c. Hallar la recta normal al gráfico de g en el punto donde $x=12.$
+
+24. Dada la función $h(x)=\frac{1}{2}x^2-x+7$
+
+a. Hallar su función derivada.
+
+b. ¿En qué punto del gráfico de h la tangente es paralela a la recta $y=3x+6?.$
+
+c. Hallar la recta tangente al gráfico de h en el punto encontrado en la parte b.
+
+25. Dada la función $f(x)=\sqrt{2x+1}$
+
+a. Hallar la función derivada de f.
+
+b. Una tangente al gráfico de f tiene por pendiente 1/2.  Hallar una ecuación de esta tangente.
+
+# TÉCNICAS BASICAS DE DERIVACIÓN
+
+En los problemas del 1 al 38, hallar la derivada de la función indicada. Las letas a,b,c y d son constantes.
+
+1. $y=4x^2-6x+1$
+
+2. $y=1-\frac{x}{3}+\frac{x^6}{6}$
+
+3. $y=0,5x^4-0,3x^2+2,5x$
+
+4. $u=y^{10}-\frac{3y^8}{4}+0,4y^3+0,1$
+
+5. $s=2t^{-5}+\frac{t^3}{3}-0,3t^{-2}.$
+
+6. $z=\frac{1}{3y}-\frac{3}{y^2}+2$
+
+7. $f(x)=3x^{5/6}-4x^{-2/3}-10$
+
+8. $g(x)=ax^5-bx^{-4}+cx^{3/2}+d$
+
+9. $y=-\frac{2x^6}{3a}$
+
+10. $z=\frac{x^3}{a+b}+\frac{x^5}{a-b}-x$
+
+11. $z=\frac{t^3-bt^2-3}{6}$
+
+12. $y=4\sqrt{x-}\frac{3}{2x^2}+\sqrt{3}$
+
+13. $z=\sqrt[3]t-\frac{1}{\sqrt[3]t}$
+
+14. $u=\frac{\sqrt3}{2\sqrt x}-\frac{5}{3\sqrt[3]{x^2}}+\sqrt[3]3$
+
+15. $y=(5x^4-4x^5)(3x^2+2x^3)$
+
+16. $y=x^3e^x$
+
+17. $y=\sqrt{x}e^x$
+
+18. $y=x^e+e^x$
+
+19. $y=(x-1)(x-2)(x-3)$
+
+20. $y=\frac{1}{3}(2x^3-1)(3x^2-2)(6x-5)$
+
+21. $z=\sqrt{t}(t^4-1)(t^6-2)$
+
+22. $y=(\sqrt{x-1})(\sqrt{x}+1)$
+
+23. $u=2\sqrt{x}(x^2-\sqrt{x}+\sqrt{5})$
+
+24. $y=(\sqrt{x}-3)\left(\frac{2}{x}-1\right)$
+
+25. $y=\frac{3}{x-9}$
+
+26. $y=\frac{x}{x-8}$
+
+27. $y=\frac{x+3}{x-3}$
+
+28. $z=\frac{t}{t^2+1}$
+
+29. $u=\frac{2t^3+1}{t-1}$
+
+30. $y=\frac{x^3-2x}{x^2+x+1}$
+
+31. $y=\frac{ax^2+bx+c}{x}$
+
+32. $y=\frac{ax^2+bx+c}{\sqrt{}x}$
+
+33. $y=\frac{ax^2+b}{\sqrt{a^2+b^2}}$
+
+34. $y=\frac{x^2+1}{x^2-1}-(x-1)(x^2-1)$
+
+35. $y=\frac{1}{(x-1)(x-3)}$
+
+36. 
+
+

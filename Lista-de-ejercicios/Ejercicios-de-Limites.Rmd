@@ -557,7 +557,7 @@ Si $f$ es continua en 0, probar que $f$ es continua en todo punto a.
 
 \newpage
 
-# EJERCICIOS DE LIMITES INFINITOS Y ASINTOTAS VERTICALES
+# LIMITES INFINITOS Y ASINTOTAS VERTICALES
 
 1. $f(x)=\frac{1}{x-2}$
 
@@ -599,15 +599,186 @@ En los problemas del 10 al 28 calcular el limite indicado.
 
 19. $\displaystyle\lim_{x\to 0^+} \left[\frac{1}{x^2-4}-\frac{1}{x-2}\right]$
 
-20.
+20. $\displaystyle\lim_{x\to 1^-}([x^2]-1)/(x^2-1)$
 
 21. $\displaystyle\lim_{y\to 1+} \left[\frac{1}{y-1}-\frac{3}{y^3-1}\right]$
 
-22.
+22. $\displaystyle\lim_{y\to 0}\frac{1}{y\sqrt{y+1}}-\frac{1}{y}$
 
 23.  $\displaystyle\lim_{x\to 0^-} \left[\frac{1}{x}-\frac{1}{|x|}\right]$
 
-24.
+24. $\displaystyle\lim_{x\to 0^+}\left[\frac{1}{x}-\frac{1}{|x|}\right]$
 
 25. $\displaystyle\lim_{x\to 0^+}x\quad cosec(x2)$
+
+26. $\displaystyle\lim_{x\to 0^+} \left[\frac{1}{x}-\frac{cos^2x}{x}\right]$
+
+27. $\displaystyle\lim_{x\to (\pi/2)}\left[\frac{tanx}{\sqrt[3]{(1-cosx)^2}}\right]$
+
+28. $\displaystyle\lim_{x\to 0^+} \left[\frac{1-cosx}{tan^3-sen^3x}\right]$
+
+En los problemas del 29 al 32, hallar las asintotas verticales a la gráfica de la función dada.
+
+29. $y=\frac{\sqrt{1+x^2}}{x}$
+
+30. $y=\frac{x}{4x^2-1}$
+
+31. $y=\frac{x}{\sqrt{x^2-1}}$
+
+32. $y=\frac{x^2}{\sqrt{x^2-1}}$
+
+33. Demostrar que las rectas $x=(2n+1)\frac{\pi}{2}$, donde n es un entero, son asíntotas verticales de la gráfica de $y=tanx$.
+
+
+# LIMITES EN EL INFINITO Y ASINTOTAS HORIZONTALES
+
+1. $f(x)=\frac{1}{x^2}$
+
+2. $f(x)=\frac{-1}{x^3}$
+
+3. $f(x)=\frac{x+2}{x-3}$
+
+4. $f(x)=\frac{x^2}{x+2}$
+
+5. $f(x)=\frac{x^3-8}{2x^3-3x^2+1}$
+
+6. $f(x)=x^5-4x^4$
+
+7. $f(x)=-2x^6+5x^5$
+
+8. $f(x)=\frac{x+1}{x}$
+
+9. $f(x)=x^2-\frac{1}{x}$
+
+En los problemas del 10 al 31 calcular el limite indicado.
+
+10. $\displaystyle\lim_{x\to +\infty}[x+\sqrt{x}]$
+
+11. $\displaystyle\lim_{x\to +\infty}[x-\sqrt{x}]$
+
+12. $\displaystyle\lim_{x\to +\infty}\frac{\sqrt{x}+1}{\sqrt{x+1}}$
+
+13. $\displaystyle\lim_{x\to +\infty}\frac{\sqrt{x}+1}{x+1}$
+
+14. $\displaystyle\lim_{x\to +\infty}\frac{x}{\sqrt{x-1}}$
+
+15. $\displaystyle\lim_{x\to +\infty}\frac{\sqrt[3]{-8x^3+x+1}}{x-1}$
+
+16. $\displaystyle\lim_{x\to +\infty}[\sqrt{x+1}-\sqrt{x}]$
+
+17. $\displaystyle\lim_{x\to +\infty}[\sqrt{x^2+2x}-{x}]$
+
+18. $\displaystyle\lim_{x\to +\infty}[\sqrt{x^2+5}-x$
+
+19. $\displaystyle\lim_{x\to +\infty}[x+\sqrt[3]{1-x^3}]$
+
+20. $\displaystyle\lim_{x\to +\infty}\frac{2x}{\sqrt{x^2+1}}$
+
+21. $\displaystyle\lim_{x\to -\infty}\frac{2x}{\sqrt{x^2+1}}$
+
+22. $\displaystyle\lim_{x\to +\infty} \frac{\sqrt{x}}{\sqrt{4x++\sqrt{x}+{\sqrt{x}}}}$
+
+23. $\displaystyle\lim_{x\to +\infty}x^{-1/2}senx$
+
+24. $\displaystyle\lim_{x\to +\infty} \left(\frac{1}{x}+\frac{\pi}{6}\right)$
+
+25. $\displaystyle\lim_{x\to +\infty}[sen\sqrt{x+2}-sen\sqrt{x}]$
+
+26. $\displaystyle\lim_{x\to +\infty}\frac{c^{2x}}{e^{2x}+1}$
+
+27. $\displaystyle\lim_{x\to +\infty}\frac{e^{3x}-e^{3x}}{e^{3x}+e^{3x}}$
+
+28. $\displaystyle\lim_{x\to +\infty}\frac{10^x}{10^x+1}$
+
+29. $\displaystyle\lim_{x\to +\infty}\left(2^{-06x}+\frac{1}{x}\right)$
+
+30. $\displaystyle\lim_{x\to +\infty}\left[1+e^{-x^2}\right]$
+
+31. $\displaystyle\lim_{x\to +\infty}[In(2+x)-In(1+x)]$
+
+32. Sea la función racional $f(x)=\frac{a_nx^n...+a_1x+a_0}{b_mxm+...+b_1x+b_0}. a_a\ne0\quad y\quad b_m\ne0$ Probar que:
+
+a. $n=m\Rightarrow\quad \displaystyle\lim_{x\to \pm \infty}f(x)=\frac{a_n}{b_m}$
+
+b. $n<m\Rightarrow\quad \displaystyle\lim_{x\to \pm \infty}f(x)=0$
+
+c. $n>m\Rightarrow\quad \displaystyle\lim_{x\to \pm \infty}f(x)= 
+\left\{
+\begin{matrix}
++\infty, & si & \frac{a_n}{b_m} & >0\\
+-\infty, & si & \frac{a_n}{b_m} & <0
+\end{matrix}
+\right .$
+
+33. Dar una definición rigurosa de:
+
+a. $\displaystyle\lim_{x\to +\infty}f(x)=+\infty$
+
+b. $\displaystyle\lim_{x\to -\infty}f(x)=+\infty$
+
+c. $\displaystyle\lim_{x\to +\infty}f(x)=-\infty$
+
+d. $\displaystyle\lim_{x\to -\infty}f(x)=-\infty$
+
+34. Probar que todo polinomio de grado impar tiene una raíz (real).  
+Sugerencia: Hallar los límites en $+\infty$ y en $-\infty$.
+
+En los problemas del 35 al 41 hallar las asintotas horizontales del gráfico de la función dada.
+
+35. $f(x)=\frac{1}{x-1}$
+
+36. $g(x)=\frac{1}{x(x+2)}$
+
+37. $g(x)=\frac{x}{4x^2-1}$
+
+38. $f(x)=\frac{2x}{\sqrt{x^2+1}}$
+
+39. $g(x)=\frac{x}{\sqrt{x^2-1}}$
+
+40. $h(x)=\frac{x^2}{\sqrt{x^2-1}}$
+
+41. $f(x)=\frac{senx}{x}$
+
+En los problemas del 42 al 44 hallar las asíntotas verticales y horizontales del gráfico de la ecuación dada.
+
+42. $2x^2+yx^2=16y$
+
+43. $(y^2-4)(x-1)=8$
+
+44. $x^2y^2=2y^2+x^2+1$
+
+
+# LOS LIMITES Y EL NUMERO e
+
+1. $\displaystyle\lim_{x\to 0}\frac{In(1+ax)}{x}$
+
+2. $\displaystyle\lim_{x\to 0}\frac{In(a+x)-Ina}{x}$
+
+3. $\displaystyle\lim_{x\to e}\frac{Inx-1}{x-e}$
+
+4. $\displaystyle\lim_{x\to 0}\frac{ex-e}{x-1}$
+
+5. $\displaystyle\lim_{x\to 0}\frac{e^{ax}-e{bx}}{x}$
+
+6. $\displaystyle\lim_{x\to +\infty}x(e^{1/x}-1)$
+
+
+# ASINTOTAS OBLICUAS
+
+1. $y=\frac{x^2}{x-1}$
+
+2. $y=\frac{x^3}{x^2-1}$
+
+3. $y=\frac{x^3}{2(x^2+1)^2}$
+
+4. $y=\frac{2x^4+x^2+x}{x^3-x^2+2}$
+
+5. $y=\sqrt{x^2-1}$
+
+6. $y=\frac{x^2+1}{\sqrt{x^2-1}}$
+
+7. $f(x)=x-2+\frac{x^2}{\sqrt{x^2+3}}$
+
+8. $f(x)=x^{2/3}(6-x)^{1/3}$
+
 

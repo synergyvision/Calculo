@@ -200,6 +200,242 @@ En los problemas del 1 al 38, hallar la derivada de la función indicada. Las le
 
 35. $y=\frac{1}{(x-1)(x-3)}$
 
-36. 
+36. $y=\frac{1-\sqrt{x}}{1+2\sqrt{x}}$
 
+37. $y=\frac{1-\sqrt[3]{x}}{1+3\sqrt[3]{x}}$
 
+38. $y=\frac{e^x-1}{e^x+1}$
+
+En los problemas del 39 al 42, hallar la recta tangente al gráfico de la función en el punto especificado.
+
+39. $y=x^4-3x^2+x-2, (1,-3)$
+
+40. $y=x^2(x-5), (2,-12)$
+
+41. $f(x)=\frac{x^2-2}{x^2-3},(-1,\frac{1}{2})$
+
+42. $g(x)=\frac{x^3}{2a-x},(a,a^2)$
+
+43. Hallar el punto en la parábola $y=3x^2-2x-1$ en el cual la recta tangente es horizontal (paralela al eje X).
+
+44. Hallar la recta tangente horizontal a la curva $y=\frac{e^x}{x}$
+
+45. Hallar la recta tangente horizontal a la curva $y=\frac{e^x}{1+x^2}$
+
+46. Hallar los puntos del gráfico de la función $f(x)=\frac{1}{3}x^3+\frac{1}{2}x^2-6x-\frac{7}{2}$ en los cuales la recta tangente es horizontal (paralela al eje X).
+
+47. Hallar la tangente al gráfico de $f(x)=x^3-3x^2-5$ que es paralela a la recta $3x+y-1=0.$
+
+48. Hallar la tangente al gráfico de $g(x)=\sqrt{x}+2$ que es perpendicular a la recta $2x+y+8=0.$
+
+49. Hallar la parábola $y=ax^2+bx$ que tenga a (2,-12) como punto más bajo.
+
+50. Hallar la parábola $y=ax^2+bx$ que tenga a (4,16) como punto más alto.
+
+51. Hallar la parábola $y=x^2+bx+c$ que es tangente a la recta $2x+y+7=0$ en el punto (-2,-3).
+
+# DERIVADAS DE LAS FUNCIONES TRIGONOMETRICAS
+
+En los problemas del 1 al 9 hallar la derivada de la función dada.
+
+1. $f(x)=5senx+2cosx$
+
+2. $g(\theta)=\theta{cot}\theta$
+
+3. $y=tan\alpha sen\alpha$
+
+4. $y=tanx-cotx$
+
+5. $h(t)=\frac{sent}{1+cost}$
+
+6. $f(x)=\frac{tanx}{x}$
+
+7. $g(x)=\frac{1-cosx}{1+cosx}$
+
+8. $y=\frac{sent+cost}{sent-cost}$
+
+9. $y=\frac{tanx-1}{secx}$
+
+10. Si $f(x)=secx-2cosx$, hallar:
+
+a. La recta tangente al gráfico de $f$ en el punto $(\pi3,1).$
+
+b. La recta normal al gráfico de $f$ en el punto $(\pi3,1).$
+
+11. Si la recta tangente al gráfico de función $f(x)=senx$ en el punto $(a, sen a)$ pasa por el origen, probar que se cumple que $tana=a.$
+
+12. Probar que $D_xcosx=-senx$
+
+13. Probar que $D_xcotx=-cosec^2x$
+
+14. Probar que $D_xcosecx=-cosec\quad x\quad cotx.$
+
+# DERIVADAS DE LAS FUNCIONES EXPONENCIALES Y LOGARITMICAS
+
+1. $y=\sqrt{x}e^x$
+
+2. $y=\left(\frac{1}{2}\right)^x$
+
+3. $y=x^22^x$
+
+4. $y=x^2e^{-x}$
+
+5. $y=e^x \ln x$
+
+6. $y=2^xlog_2x$
+
+7. $y=\frac{\ln x}{e^x}$
+
+8. $y=\frac{log_2x}{2^x}$
+
+9. $y=\frac{1+\ln x}{1-\ln x}$
+
+10. Hallar la recta tangente horizontal a la curva $y=\frac{e^x}{1+x^2}$
+
+11. Hallar la recta tangente al gráfico de $f(x)=xe^{-x}$ en el punto donde $x=-1.$
+
+12. Hallar la recta tangente al gráfico de $g(x)=\frac{4-x}{\ln x}$ en el punto donde $x=4.$
+
+# LA REGLA DE LA CADENA
+
+En los problemas del 1 al 61 derivar la función indicada. Las letras a,b y c denotan constantes.
+
+1. $y=(x^2-3x+5)^3$
+
+2. $f(x)=(15-8x)^4$
+
+3. $g(t)=(2t^3-1)^{-3}$
+
+4. $z=\frac{1}{(5x^5-x^4)^8}$
+
+5. $y=(3x^2-8)^3(-4x^2+1)^4$
+
+6. $f(u)=\frac{2u^3+1}{u^2-1}$
+
+7. $y=\left(\frac{x-1}{x+3}\right)^2$
+
+8. $g(t)=\left(\frac{3t^2+2}{2t^3-1}\right)^2$
+
+9. $y=\sqrt{1-2x}$
+
+10. $u=\sqrt{1+t-2t^2-8t^3}$
+
+11. $h(x)=x^2\sqrt{x^4-1}$
+
+12. $g(x)=\frac{x}{\sqrt{x^2+1}}$
+
+13. $y=\sqrt{3x^2-1}\sqrt[3]{2x+1}$
+
+14. $z=(1-3x^2)^2(\sqrt{x}+1)^-2$
+
+15. $h(t)=\frac{1+t}{\sqrt{1-t}}$
+
+16. $z=\sqrt[3]{\frac{1}{1+t^2}}$
+
+17. $z=\sqrt[3]{b+ax^3}$
+
+18. $f(x)=\frac{x}{b^2\sqrt{b^2+x^2}}$
+
+19. $y=\frac{1-\sqrt{1+x}}{1+\sqrt{1+x}}$
+
+20. $f(x)=\sqrt{(x-a)(x-b)(x-c)}$
+
+21. $y=\sqrt[3]{x+\sqrt{x}}$
+
+22. $y=\sqrt{x+\sqrt{x+\sqrt{x}}}$
+
+23. $y=tan\quad 4x$
+
+24. $y=2cot\frac{x}{2}$
+
+25. $u=cos(x^3)$
+
+26. $v=cos^3x$
+
+27. $y=tan(x^4)+tan^4x$
+
+28. $z=cos\sqrt{x}$
+
+29. $u=\sqrt{cosx}$
+
+30. $y=\sqrt{cos\sqrt{x}}$
+
+31. $y=\sqrt[3]{tan3x}$
+
+32. $y=cot\sqrt[3]{1+x^2}$
+
+33. $y=\frac{4}{\sqrt{secx}}$
+
+34. $y=cosec\frac{1}{x^2}$
+
+35. $y=sen^3\left[\frac{1-\sqrt{x}}{1+\sqrt{x}}\right]$
+
+36. $y=\frac{tanx}{\sqrt{sec^2x+1}}$
+
+37. $y=\sqrt{\frac{1+senx}{1-senx}}$
+
+38. $y=\sqrt{1+cot(x+1/x)}$
+
+39. $y=\frac{cot(x/2)}{\sqrt{1-cot^2(x/2)}}$
+
+40. $y=\sqrt{a\quad sen^2x+\quad bcos^2x}$
+
+41. $y=cos(cos\quad x)$
+
+42. $y=sen(cosx^2)$
+
+43. $y=sen^2(cos\quad 4x)$
+
+44. $y=sen(sen(senx))$
+
+45. $y=cos^2(cos x)+sen^2(senx)$
+
+46. $y=sen(tan\sqrt{senx})$
+
+47. $y=tan(sen^2x)$
+
+48. $y=e^{-3x^2+1}$
+
+49. $y=2^{\sqrt{x}}$
+
+50. $y=x^na^{-x^2}$
+
+51. $y=3^{cot(1/t)}$
+
+52. $y=2^{3^{sen^2x}}$
+
+53. $y=\sqrt{log_5x}$
+
+54. $y=\ln\left(\frac{x}{e^x}\right)$
+
+55. $y=\frac{\ln t}{e^{2t}}$
+
+56. $y=\ln \frac{e^{4x}-1}{e^{4x}+1}$
+
+57. $y=e^{x\ln x}$
+
+58. $y=\ln \left[\frac{x+1}{\sqrt{x-2}}\right]$
+
+59. $y=\ln \left[\frac{x+1}{x-1}\right]^{3/5}$
+
+60. $y=\ln (x^3senx)$
+
+61. $y=\ln cos\frac{x-1}{x}$
+
+62. Si $G(x)=(g(x))^{2/3}\quad g(2)=125\quad y\quad g`(2)=150,\quad hallar\quad G`((2)).$
+
+63. Si $F(t)=[f(sen t)]^2,\quad f(0)=-3\quad y\quad f´(0)=5,\quad hallar F´(0).$
+
+64. Dadas $f(u)=\frac{1}{4}u^3-3u+5\quad y\quad g(x)=\frac{x-1}{x+1}$, hallar la derivada de $f o g$ de dos maneras:
+
+a. Encontrando $(f\quad o\quad g)(x)$ y derivando este resultado.
+
+b. Aplicando la regla de la cadena.
+
+En los ejercicios del 65 al 69, hallar $h´(x)\quad si\quad h(x)=(f\quad o\quad g) (x)=f(g(x)).$
+
+65. $f(u)=u^3-2u^2-5,g(x)=2x-1$
+
+66. $f(v)=\sqrt{v},g(x)=2x^3-4$
+
+67. 

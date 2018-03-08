@@ -126,6 +126,8 @@ a. Hallar la función derivada de f.
 
 b. Una tangente al gráfico de f tiene por pendiente 1/2.  Hallar una ecuación de esta tangente.
 
+\newpage
+
 # TÉCNICAS BASICAS DE DERIVACIÓN
 
 En los problemas del 1 al 38, hallar la derivada de la función indicada. Las letas a,b,c y d son constantes.
@@ -234,6 +236,8 @@ En los problemas del 39 al 42, hallar la recta tangente al gráfico de la funci�
 
 51. Hallar la parábola $y=x^2+bx+c$ que es tangente a la recta $2x+y+7=0$ en el punto (-2,-3).
 
+\newpage
+
 # DERIVADAS DE LAS FUNCIONES TRIGONOMETRICAS
 
 En los problemas del 1 al 9 hallar la derivada de la función dada.
@@ -270,6 +274,8 @@ b. La recta normal al gráfico de $f$ en el punto $(\pi3,1).$
 
 14. Probar que $D_xcosecx=-cosec\quad x\quad cotx.$
 
+\newpage
+
 # DERIVADAS DE LAS FUNCIONES EXPONENCIALES Y LOGARITMICAS
 
 1. $y=\sqrt{x}e^x$
@@ -295,6 +301,8 @@ b. La recta normal al gráfico de $f$ en el punto $(\pi3,1).$
 11. Hallar la recta tangente al gráfico de $f(x)=xe^{-x}$ en el punto donde $x=-1.$
 
 12. Hallar la recta tangente al gráfico de $g(x)=\frac{4-x}{\ln x}$ en el punto donde $x=4.$
+
+\newpage
 
 # LA REGLA DE LA CADENA
 
@@ -438,4 +446,291 @@ En los ejercicios del 65 al 69, hallar $h´(x)\quad si\quad h(x)=(f\quad o\quad 
 
 66. $f(v)=\sqrt{v},g(x)=2x^3-4$
 
-67. 
+67. $f(t)=t^5.g(x)=1-2\sqrt{x}$
+
+68. $f(u)=\frac{b-u}{b+u},g(x)=cx$
+
+69. $f(v)=\frac{1}{v}g(x)=a\sqrt{a^2-x^2}$
+
+En los ejercicios del 70 al 73 hallar $\frac{dy}{dx}$
+
+70. $y=3u^3-4u^4-1,u=x^2-1$
+
+71. $y=v^5,v=3a+2bx$
+
+72. $y=t^4,t=\frac{ax+b}{c}$
+
+73. $y=\frac{1}{\sqrt{v}},v=3x^2-1$
+
+En los ejercicios del 74 al 81, hallar la recta tangente y la recta normal al gráfico de la función dada en el punto ($a,f(a)$), para el valor especificado de $a$.
+
+74. $f(x)=(2x^2-1)^3,a=-1$
+
+75. $f(x)=\frac{3}{(2-x^2)^2},a=0$
+
+76. $f(x)=\frac{x-2}{\sqrt{3x+6}},a=1$
+
+77. $f(x)=\sqrt[3]{x-1},a=-7$
+
+78. $f(x)=\frac{(x-1)^2}{(3x-2)^2},a=\frac{1}{2}$
+
+79. $f(x)=cot^2x,a=\frac{\pi}{4}$
+
+80. $f(x)=|1-x^3|,a=2$
+
+81. $f(x)=|sen5x|,,a=\frac{\pi}{3}$
+
+82. Hallar las rectas tangentes al gráfico de $f(x)=(x-1)(x-2)(x-3)$ en los puntos donde el gráfico corta al eje X.
+
+83. Hallar los puntos en la gráfica de $g(x)=x^2(x-4)^2$ en los cuales la recta tangente es paralela al eje X.
+
+84. Hallar las rectas tangentes al gráfico de $f(x)=\frac{x-4}{x-2}$ en los puntos donde este gráfico corta a los ejes. ¿Qué particularidad tienen estas rectas?
+
+85. Hallar las rectas tangentes al gráfico de $g(x)=\frac{x+4}{x+3}$ que pasan por el origen.
+
+86. Hallar las rectas tangentes al gráfico de $f(x)=3x^2-\ln x$ en el punto (1,3).
+
+87. Hallar las rectas tangentes al gráfico de $y=\ln (1+e^x)$ en el punto $(0, \ln 2).$
+
+88. Sean $f$ y $g$ dos funciones diferenciables tales que $f'(u)=\frac{1}{u}\quad y\quad  f(g(x))=x$.
+
+Probar que $g'(x)=g(x).$
+
+\newpage
+
+# APLICACIONES DE LA DERIVADA
+
+## Valores Máximos y Mínimos
+
+1. Dibuje el gráfico de $f$ a mano y use su boceto para encontrar los valores máximos y mínimos absolutos y locales de $f$.
+
+a. $f(x)=\frac{1}{2}(3x-1),x \le3$
+
+b. $f(x)=2-\frac{1}{3}x,x\ge-2$
+
+c. $f(x)=sinx,0\le x<\pi/2$
+
+d. $f(t)=\text{cos} t,-3\pi/2\le t \le 3\pi/2$
+
+e. $f(x)=\ln x, 0<x\le2$
+
+f. $f(x)=1/x,1<x<3$
+
+g. $f(x)=1-\sqrt{}x$
+
+h. 
+$f(x)=\left\{
+\begin{matrix}
+4-x^2 & si & -2  \le x < 0\\
+2x-1 & si & 0  \le x \le 2
+\end{matrix}
+\right .$
+
+2. Encuentra los números críticos de la función.
+
+a. $f(x)=4+\frac{1}{x}x-\frac{1}{2}x^2$
+
+b. $f(x)=x^3+6x^2-15x$
+
+c. $f(x)=2x^3-3x^2-36x$
+
+d. $g(t)=t^4+t^3+t^2+1$
+
+e. $g(y)=\frac{y-1}{y^2-y+1}$
+
+f. $F(x)=x^{4/5}(x-4)^2$
+
+g. $f(\theta)=2\text{cos}\theta+\text{sin}^2\theta$
+
+h. $f(x)=x^2e^{-3x}$
+
+i. $f(x)=2x^3+x^2+2x$
+
+j. $g(t)=|3t-4|$
+
+k. $g(x)=x^{1/3}-x^{-2/3}$
+
+l. $g(\theta)=4\theta-\text{tan}\theta$
+
+m. $f(x)=x^{-2}\ln x$
+
+n. $h(p)=\frac{p-1}{p2^+4}$
+
+3. Encuentre los valores mínimos absolutos y máximos absolutos de $f$ en el intervalo dado.
+
+a. $f(x)=12+4x-x^2,\quad [0,5]$
+
+b. $f(x)=5+54x-2x^3,\quad [0,4]$
+
+c. $f(x)=2x^3-3x^2-12x+1,\quad [-2,3]$
+
+d. $f(x)=x^3-6x^2+5,\quad [-3,5]$
+
+e. $f(x)=3x^4-4x^3-12x^2+1,\quad [-2,3]$
+
+f. $f(x)=(x^2-1)^3,\quad [-1,2]$
+
+g. $f(t)=t\sqrt{4-t^2},\quad [-1,2]$
+
+h. $f(f)=\frac{x}{x^2-x+1},\quad [0,3]$
+
+i. $f(t)=2\text{cos}t+\text{sin}2t,\quad [0,\pi/2]$
+
+j. $f(t)=t+\text{cot}(\frac{1}{2}t),\quad [\pi/4,7\pi/4]$
+
+k. $f(x)=xe^{-x^2/8}, [-1,4]$
+
+l. $f(x)=x-\ln x,\quad [\frac{1}{2},2]$
+
+m. $f(x)=\ln (x^2+x+1),\quad[-1.1]$
+
+n. $f(x)=x-2\text{tan}^{-1}x,\quad [0,4]$
+
+4. En los siguientes ejercicios: 
+
+a. Use un gráfico para estimar los valores máximos y mínimos absolutos de la función con dos decimales.
+
+b. Use cálculo para encontrar los valores máximos y mínimos exactos.
+
+4.1. $f(x)=x^5-x^3+2,\quad -1\le x\le1$
+
+4.2. $f(x)=e^x+e^{-2x},\quad 0\le x\le1$
+
+4.3. $f(x)=x\sqrt{x-x^2}$
+
+4.4. $f(x)=x-2\text{cos}x,\quad -2\le x\le0$
+
+5. La función proporciona un modelo para el precio promedio de una libra de azúcar blanco de 1993 a 2003.
+
+$$
+\begin{matrix}
+S(t)=-0.0000327t^5+0.0009037t^4-0.008956t^3\\
++0.03629t^2-0.04458t+0.4074
+\end{matrix}
+$$
+
+Donde se mide en años desde agosto de 1993. Estime los tiempos en que el azúcar fue más barato y más caro durante el período 1993-2003.
+
+6. En los siguientes ejercicios:
+
+(a) Encuentre los intervalos en los que $f$ aumenta o disminuye.
+(b) Encuentre los valores máximos y mínimos locales de $f$.
+(c) Encuentre los intervalos de concavidad y los puntos de inflexión.
+
+6.1. $f(x)=2x^3+3x^2-36x$
+
+6.2. $f(x)=4x^3+3x^2-6x+1$
+
+6.3. $f(x)=x^4-2x^2+3$
+
+6.4. $f(x)=\frac{x}{x^2+1}$
+
+6.5. $f(x)=\text{sin}x+\text{cos}x,\quad 0\le x\le2\pi$
+
+6.6. $f(x)=\text{cos}^2x-2\text{sin}x,\quad 0\le x\le 2\pi$
+
+6.7. $f(x)=e^{2x}+e^{-x}$
+
+6.8. $f(x)=x^2\ln x$
+
+6.9. $f(x)=x^2-x-\ln x$
+
+6.10. $f(x)=x^4e^{-x}$
+
+## Derivados y Formas de Gráficos
+
+Dibuje el gráfico de una función que satisfaga todas las condiciones dadas.
+
+1. $f´(x)$ y $f"(x)$ son siempre negativos.
+
+2. Asíntota vertical 
+
+$x=0, f´(x)>0\quad  si\quad  x<-2,$
+
+$f´(x)<0\quad si\quad x>-2 (x\ne0),$
+
+$f"(x)<0\quad si\quad x<0,f"(x)>0\quad si\quad x>0$
+
+3. $f´(0)=f´(2)=f´(4)=0,$
+
+$f´(x)>0\quad si\quad x<0\quad ó\quad 2<x<4,$
+
+$f´(x)<0\quad si\quad x<0\quad ó\quad 2<x>4,$
+
+$f"(x)>0\quad si\quad 1<x<3, f"(x)<0\quad si\quad x<1\quad ó\quad x>3$
+
+4. $f´(1)=f´(-1)=0, f´(x)<0\quad si\quad |x|<1,$
+
+$f´(x)>0\quad si\quad 1<|x|<2,f´(x)=-1\quad si\quad |x|>2,$
+
+$f"(x)<0\quad si\quad -2<x<0,$ punto de inflección $(0,1)$
+
+5. $f´(x)>0\quad si\quad |x|<2, f´(x)<0\quad si\quad |x|>2,$
+
+$f´(-2)=0,\displaystyle\lim_{x\to 2}|f´(x)|=\infty, f"(x)>0\quad si\quad x\ne2$
+
+6. $f´(x)>0\quad si\quad |x|<2, f´(x)<0\quad si\quad |x|>2,$
+
+$f´(2)=0,\displaystyle\lim_{x\to \infty}f(x)=1, f(-x)=-f(x),$
+
+$f"(x)<0\quad si\quad 0<x<3, f"(x)>0\quad si\quad x>3$
+
+7. En los siguientes ejercicios:
+
+a. Encuentre las asíntotas verticales y horizontales.
+
+b. Encuentre los intervalos de aumento o disminución.
+
+c. Encuentre los valores máximos y mínimos locales.
+
+d. Encuentre los intervalos de concavidad y los puntos de inflexión.
+
+e. Use la información de las partes (a) - (d) para esbozar el gráfico de $f$.
+
+7.1 $f(x)=1+\frac{1}{x}-\frac{1}{x^2}$
+
+7.2 $f(x)=\frac{x^2-4}{x^2+4}$
+
+7.3 $f(x)=\sqrt{x^2+1}-x$
+
+7.4 $f(x)=\frac{e^x}{1-e^x}$
+
+7.5 $f(x)=e^{-x^2}$
+
+7.6 $f(x)=x-\frac{1}{6}x^2-\frac{2}{3}\ln x$
+
+7.7 $f(x)=\ln (1-\ln x)$
+
+7.8 $f(x)=e^{\text{arctan} x}$
+
+8. En este ejercicio determine:
+
+a. Si $C(x)$ es el costo de producir unidades de un producto, entonces el costo promedio por unidad es $c(x)=C(x)/x$. Demuestre que si el costo promedio es mínimo, entonces el marginal el costo es igual al costo promedio.
+
+b. Si $C(x)=16,000+200x+4x^{3/2}$, en dólares, encuentre (i) el costo, el costo promedio y el costo marginal a un nivel de producción de 1000 unidades; (ii) el nivel de producción que minimizará el costo promedio; y (iii) el costo promedio mínimo.
+
+9. a) Demuestre que si la ganancia $P(x)$ es un máximo, entonces el ingreso marginal es igual al costo marginal.
+
+b) Si $C(x)=16,000+500x-1.6x^2+0.004x^3$ es la función de costo y $p(x)=1700-7x$ es la función de demanda, encuentre el nivel de producción que maximizará los beneficios.
+
+10. Un equipo de béisbol juega en un estadio que tiene 55,000 espectadores. Con los precios de los boletos en \$10, la asistencia promedio había sido de 27,000. Cuando se redujeron los precios de los boletos a \$8, la asistencia promedio aumentó a 33,000.
+
+a. Encuentre la función de demanda, suponiendo que sea lineal.
+
+b. ¿Cómo deberían establecerse los precios de los boletos para maximizar los ingresos?
+
+11. Durante los meses de verano, Terry fabrica y vende collares en la playa. El verano pasado vendió los collares por \$10 cada uno y sus ventas promediaron 20 por día. Cuando aumentó el precio por \$1, descubrió que el promedio disminuía en dos ventas por día.
+
+a. Encuentre la función de demanda, suponiendo que sea lineal.
+
+b. Si el material de cada collar le cuesta a Terry \$6, ¿cuál debería ser el precio de venta para maximizar su beneficio?
+
+12. Un fabricante ha estado vendiendo 1000 televisores de pantalla plana por semana en \$450 cada uno. Una encuesta de mercado indica que por cada \$10 de descuento ofrecido al comprador, la cantidad de televisores vendidos aumentará en 100 por semana.
+
+a. Encuentre la función de demanda.
+
+b. ¿Qué tan grande es el descuento que la empresa debe ofrecer al comprador para maximizar sus ingresos?
+
+c. Si su función de costo semanal es $C(x)=68,000+150x$, ¿cómo debe el fabricante establecer el tamaño del reembolso para maximizar su beneficio?
+
+13. El gerente de un complejo de apartamentos de 100 unidades sabe por experiencia que todas las unidades estarán ocupadas si el alquiler es \$800 por mes. Una encuesta de mercado sugiere que, en promedio, una unidad adicional permanecerá vacante por cada \$10 de aumento en la renta. ¿Qué renta debería cobrar el gerente para maximizar los ingresos?

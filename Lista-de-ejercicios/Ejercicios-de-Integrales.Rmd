@@ -18,3 +18,418 @@ knitr::opts_chunk$set(echo = TRUE)
 
 \newpage
 
+Use la Parte 1 del Teorema Fundamental del Cálculo para encontrar la derivada de la función.
+
+1. $g(x)=\displaystyle\int_{1}^{x}\frac{1}{t^3+1}dt$
+
+2. $g(x)=\displaystyle\int_{1}^{x}(2+t^4)^5dt$
+
+3. $g(s)=\displaystyle\int_{5}^{s}(t-t^2)^8dt$
+
+4. $g(r)=\displaystyle\int_{0}^{r}\sqrt{x^2+4}dx$
+
+5. $F(x)=\displaystyle\int_{x}^{\pi}\sqrt{1+\text{sec}t}dt$
+
+$$\left[\displaystyle\int_{x}^{\pi}\sqrt{1+\text{sec}t}dt=-\displaystyle\int_{\pi}^{x} \sqrt{1+\text{sec}}tdt\right]$$
+6. $G(x)=\displaystyle\int_{1}^{x}\text{cos}\sqrt{t}dt$
+
+7. $h(x)=\displaystyle\int_{2}^{1/x}\text{sin}^4tdt$
+
+8. $h(x)=\displaystyle\int_{1}^{\sqrt{x}}\frac{z^2}{z^4+1}dz$
+
+9. $y=\displaystyle\int_{0}^{tanx}\sqrt{t+\sqrt{t}}dt$
+
+10. $y=\displaystyle\int_{0}^{x^4}\text{cos}^2\theta d\theta$
+
+11. $y=\displaystyle\int_{1-3x}^{1}\frac{u^3}{1+u^2}du$
+
+12. $y=\displaystyle\int_{sinx}^{1}\sqrt{1+t^2}dt$
+
+Evaluar la integral.
+
+13. $\displaystyle\int_{-1}^{2}(x^3-2x)dx$
+
+14. $\displaystyle\int_{-1}^{1}x^{100}dx$
+
+15. $\displaystyle\int_{1}^{4}(5-2t+3t^2)dt$
+
+16. $\displaystyle\int_{0}^{1}(1+\frac{1}{2}u^4-\frac{2}{5}u^9)$
+
+17. $\displaystyle\int_{1}^{9}\sqrt{x}dx$
+
+18. $\displaystyle\int_{1}^{8}x^{-2/3}dx$
+
+19. $\displaystyle\int_{\pi/6}^{\pi}\text{sin}\theta d \theta$
+
+20. $\displaystyle\int_{-5}^{5}\pi dx$
+
+21. $\displaystyle\int_{0}^{1}(u+2)(u-3)du$
+
+22. $\displaystyle\int_{0}^{4}(4-t)\sqrt{t}dt$
+
+23. $\displaystyle\int_{1}^{9}\frac{x-1}{\sqrt{x}}dx$
+
+24. $\displaystyle\int_{0}^{2}(y-1)(2y+1)$
+
+25. $\displaystyle\int_{0}^{\pi/4}\text{sec}^2tdt$
+
+26. $\displaystyle\int_{0}^{\pi/4}\text{sec}\theta\quad \text{tan}\theta\quad d\theta$
+
+27. $\displaystyle\int_{1}^{2}(1+2y)^2dy$
+
+28. $\displaystyle\int_{1}^{2}\frac{s^4+1}{s^2}ds$
+
+29. $\displaystyle\int_{1}^{2}\frac{v^5+3v^6}{v^4}dv$
+
+30. $\displaystyle\int_{1}^{18}\sqrt{\frac{3}{z}}dz$
+
+31. $\displaystyle\int_{0}^{\pi}f(x)dx\quad \text{donde}\quad 
+f(x)=\left\{
+\begin{matrix}
+\text{sin} x & \text{si} & 0\le & x<\pi/2\\
+\text{cos} x & \text{si} & \pi/2\le & x\le\pi
+\end{matrix}
+\right .$
+
+32. $\displaystyle\int_{-2}^{2}f(x)dx\quad \text{donde}\quad 
+f(x)=\left\{
+\begin{matrix}
+2 & \text{si} & -2\le & x \le 0\\
+4 - x^2 & \text{si} & 0 < & x\le 2
+\end{matrix}
+\right .$
+
+
+¿Qué está mal con la ecuación?
+
+33. $\displaystyle\int_{-2}^{1}x^{-4}dx=\frac{x^{-3}}{-3}\big|_{-2}^{1}=-\frac{3}{8}$
+
+34. $\displaystyle\int_{-1}^{2}\frac{4}{x^3}dx=-\frac{2}{x^2}\big|_{-1}^{2}=\frac{3}{2}$
+
+35. $\displaystyle\int_{\pi/3}^{\pi}\sec\theta\tan\theta d\theta=\sec\theta\big|_{\pi/3}^{\pi}=-3$
+
+36. $\displaystyle\int_{0}^{\pi}\sec^2 x dx=\tan x\big|_{0}^{\pi}=0$
+
+Use un gráfico para dar una estimación aproximada del área de la región que se encuentra debajo de la curva dada. Luego encuentra el área exacta.
+
+37. $y=\sqrt[3]{x},\quad 0\le x \le 27$
+
+38. $y=x^{-4},\quad 1\le x \le 6$
+
+39. $y=\sin x,\quad 0\le x \le \pi$
+
+40. $y=\sec^2x,\quad 0\le x \le\pi/3$
+
+Evaluar la integral.
+
+41. $\displaystyle\int_{1}^{9}\frac{1}{2x}dx$
+
+42. $\displaystyle\int_{0}^{1}10^xdx$
+
+43. $\displaystyle\int_{1/2}^{\sqrt{3/2}}\frac{6}{\sqrt{1-t^2}}dt$
+
+44. $\displaystyle\int_{0}^{1}\frac{4}{t^2+1}dt$
+
+45. $\displaystyle\int_{-1}^{1}e^{u+1}du$
+
+46. $\displaystyle\int_{1}^{2}\frac{4+u^2}{u^3}du$
+
+\newpage
+
+Verificar por diferenciación que la fórmula es correcta.
+
+1. $\displaystyle\int\frac{1}{x^2\sqrt{1+x^2}}dx=-\frac{\sqrt{1+x^2}}{x}+C$
+
+2. $\displaystyle\int\cos^2xdx=\frac{1}{2}x+\frac{1}{4}\sin 2x+C$
+
+3. $\displaystyle\int\cos^3xdx= \sin x-\frac{1}{3}\sin^3x+C$
+
+4. $\displaystyle\int\frac{x}{\sqrt{a+bx}}dx=\frac{2}{3b^2}(bx-2a)\sqrt{a+bx}+C$
+
+Encuentra la integral general indefinida.
+
+5. $\displaystyle\int(x^2+x^{-2})dx$
+
+6. $\displaystyle\int(\sqrt{x^3}+\sqrt[3]{x^2})dx$
+
+7. $\displaystyle\int(x^4-\frac{1}{2}x^3+\frac{1}{4}x-2)dx$
+
+8. $\displaystyle\int(y^3+1.8y^2-2.4y)dy$
+
+9. $\displaystyle\int(u+4)(2u+1)du$
+
+10. $\displaystyle\int v(v^2+2)^2dv$
+
+11. $\displaystyle\int\frac{x^3-2\sqrt{x}}{x}dx$
+
+12. $\displaystyle\int\left(u^2+1+\frac{1}{u^2}\right)du$
+
+13. $\displaystyle\int(\theta-\csc\theta\cot\theta)d\theta$
+
+14. $\displaystyle\int\sec t(\sec t+\tan t)dt$
+
+15. $\displaystyle\int(1+\tan^2\alpha)d\alpha$
+
+16. $\displaystyle\int\frac{\sin2x}{\sin x}dx$
+
+Evaluar la integral.
+
+17. $\displaystyle\int_{-2}^{3}(x^2-3)dx$
+
+18. $\displaystyle\int_{1}^{2}(4x^3-3x^2+2x)dx$
+
+19. $\displaystyle\int_{-2}^{0}(\frac{1}{2}t^4+\frac{1}{4}t^3-t)dt$
+
+20. $\displaystyle\int_{0}^{3}(1+6w^2-10w^4)dw$
+
+21. $\displaystyle\int_{0}^{2}(2x-3)(4x^2+1)dx$
+
+22. $\displaystyle\int_{-1}^{1}t(1-t)^2dt$
+
+23. $\displaystyle\int_{0}^{\pi}(4\sin\theta-3\cos\theta)d\theta$
+
+24. $\displaystyle\int_{1}^{2}\left(\frac{1}{x^2}-\frac{4}{x^3}\right)dx$
+
+25. $\displaystyle\int_{1}^{4}\left(\frac{4+6u}{\sqrt{u}}\right)du$
+
+26. $\displaystyle\int_{1}^{2}\left(x+\frac{1}{x}\right)^2dx$
+
+27. $\displaystyle\int_{1}^{2}\sqrt{\frac{5}{x}}dx$
+
+28. $\displaystyle\int_{1}^{9}\frac{3x-2}{\sqrt{x}}dx$
+
+29. $\displaystyle\int_{1}^{4}\sqrt{t}(1+t)dt$
+
+30. $\displaystyle\int_{\pi/4}^{\pi/3}\csc^2\theta d\theta$
+
+31. $\displaystyle\int_{0}^{\pi/4}\frac{1+\cos^2\theta}{\cos^2\theta}d\theta$
+
+32. $\displaystyle\int_{0}^{\pi/3}\frac{\sin\theta+\sin\theta\tan^2\theta}{\sec^2\theta}d\theta$
+
+33. $\displaystyle\int_{1}^{64}\frac{1+\sqrt[3]{x}}{\sqrt{x}}dx$
+
+34. $\displaystyle\int_{1}^{8}\frac{x-1}{\sqrt[3]{x^2}}dx$
+
+35. $\displaystyle\int_{0}^{1}(\sqrt[4]{x^5}+\sqrt[5]{x^4})dx$
+
+36. $\displaystyle\int_{0}^{1}(1+x^2)^3dx$
+
+37. $\displaystyle\int_{2}^{5}|x-3|dx$
+
+38. $\displaystyle\int_{0}^{2}|2x-1|dx$
+
+39. $\displaystyle\int_{-1}^{2}(x-2|x|)dx$
+
+40. $\displaystyle\int_{0}^{3\pi/2}|\sin x|dx$
+
+41. $\displaystyle\int(\sin x + \sin h x )dx$
+
+42. $\displaystyle\int_{-10}^{10}\frac{2e^{x}}{\sinh x + \cosh x}dx$
+
+43. $\displaystyle\int\left(x^2+1+\frac{1}{x^2+1}\right)dx$
+
+44. $\displaystyle\int_{1}^{2}\frac{(x-1)^3}{x^2}dx$
+
+45. $\displaystyle\int_{0}^{1/\sqrt{3}}\frac{t^2-1}{t^4-1}dt$
+
+Evalúa la integral haciendo la sustitución dada.
+
+1. $\displaystyle\int\sin\pi x dx,\quad u=\pi x$
+
+2. $\displaystyle\int x^3(2+x^4)^5dx,\quad u=2+x^4$
+
+3. $\displaystyle\int x^2\sqrt{x^3+1}dx,\quad u=x^3+1$
+
+4. $\displaystyle\int\frac{dt}{(1-6t)^4},\quad u=1-6t$
+
+5. $\displaystyle\int\cos^3\theta\sin\theta d\theta,\quad u=\cos\theta$
+
+6. $\displaystyle\int\frac{\sec^2(1/x)}{x^2}dx,\quad u=1/x$
+
+Evaluar la integral indefinida.
+
+7. $\displaystyle\int x\sin(x^2)dx$
+
+8. $\displaystyle\int x^2\cos(x^3)dx$
+
+9. $\displaystyle\int(1-2x)^9dx$
+
+10. $\displaystyle\int(3t+2)^{2.4}dt$
+
+11. $\displaystyle\int(x+1)\sqrt{2x+x^2}dx$
+
+12. $\displaystyle\int\sec^22\theta d\theta$
+
+13. $\displaystyle\int\sec3t\tan3t dt$
+
+14. $\displaystyle\int u\sqrt{1-u^2}du$
+
+15. $\displaystyle\int\frac{a+bx^2}{\sqrt{3ax+bx^3}}dx$
+
+16. $\displaystyle\int\frac{\sin\sqrt{x}}{\sqrt{x}}dx$
+
+17. $\displaystyle\int\sec^2\theta\tan^3\theta d\theta$
+
+18. $\displaystyle\int\cos^4\theta\sin\theta d\theta$
+
+19. $\displaystyle\int(x^2+1)(x^3+3x)^4dx$
+
+20. $\displaystyle\int\sqrt{x}\sin(1+x^{3/2})dx$
+
+21. $\displaystyle\int\frac{\cos x}{\sin^2 x}dx$
+
+22. $\displaystyle\int\frac{\cos(\pi/x)}{x^2}dx$
+
+23. $\displaystyle\int\frac{z^2}{\sqrt[3]{1+z^3}}dz$
+
+24. $\displaystyle\int\frac{dt}{\cos^2t\sqrt{1+\tan t}}$
+
+25. $\displaystyle\int\sqrt{\cot x}\csc^2 xdx$
+
+26. $\displaystyle\int\sin t \sec^2(\cos t)dt$
+
+27. $\displaystyle\int\sec^3 x \tan x dx$
+
+28. $\displaystyle\int x^2\sqrt{2+x}dx$
+
+29. $\displaystyle\int x(2x+5)^8dx$
+
+30. $\displaystyle\int x^3\sqrt{x^2+1}dx$
+
+Evalúa la integral indefinida. Ilustre y compruebe que su respuesta es razonable graficando tanto la función como su antiderivada (tomar $C=0$).
+
+31. $\displaystyle\int x (x^2-1)^3dx$
+
+32. $\displaystyle\int\tan^2 \theta \sec^2 \theta d\theta$
+
+33. $\displaystyle\int\sin^3 x \cos x dx$
+
+34. $\displaystyle\int\sin x \cos^4 x dx$
+
+Evaluar la integral definida.
+
+35. $\displaystyle\int_{0}^{1}\cos(\pi t/2)dt$
+
+36. $\displaystyle\int_{0}^{1}(3t-1)^{50}dt$
+
+37. $\displaystyle\int_{0}^{1}\sqrt[3]{1+7x}dx$
+
+38. $\displaystyle\int_{0}^{\sqrt{\pi}}x \cos(x^2)dx$
+
+39. $\displaystyle\int_{0}^{\pi}\sec^2(t/4)dt$
+
+40. $\displaystyle\int_{1/6}^{1/2}\csc\pi t\cot \pi t dt$
+
+41. $\displaystyle\int_{-\pi/4}^{\pi/4}(x^3+x^4\tan x)dx$
+
+42. $\displaystyle\int_{0}^{\pi/2}\cos x \sin(\sin x)dx$
+
+43. $\displaystyle\int_{0}^{13}\frac{dx}{\sqrt[3](1+2x)^2}$
+
+44. $\displaystyle\int_{0}^{a}x\sqrt{a^2-x^2}dx$
+
+45. $\displaystyle\int_{0}^{a}x\sqrt{x^2+a^2}dx\quad (a>0)$
+
+46. $\displaystyle\int_{-\pi/3}^{\pi/3}x^4\sin x dx$
+
+47. $\displaystyle\int_{1}^{2}x\sqrt{x-1}dx$
+
+48. $\displaystyle\int_{0}^{4}\frac{x}{\sqrt{1+2x}}dx$
+
+49. $\displaystyle\int_{1/2}^{1}\frac{\cos(x^{-2})}{x^3}dx$
+
+50. $\displaystyle\int_{0}^{T/2}\sin(2\pi t/T-\alpha)dt$
+
+51. $\displaystyle\int_{0}^{1}\frac{dx}{(1+\sqrt{x})^4}$
+
+Evaluar la integral.
+
+52. $\displaystyle\int\frac{dx}{5-3x}$
+
+53. $\displaystyle\int e^x\sin(e^x)dx$
+
+54. $\displaystyle\int\frac{(\ln x)^2}{x}dx$
+
+55. $\displaystyle\int\frac{dx}{ax+b}(a\ne0)$
+
+56. $\displaystyle\int e^{\tan x}\sec^2xdx$
+
+57. $\displaystyle\int e ^{\cos t}\sin t dt$
+
+58. $\displaystyle\int e^{\tan x}\sec^2x dx$
+
+59. $\displaystyle\int\frac{\tan^{-1}x}{1+x^2}dx$
+
+60. $\displaystyle\int\frac{1+x}{1+x^2}dx$
+
+61. $\displaystyle\int\frac{\sin(\ln x)}{x}dx$
+
+62. $\displaystyle\int\frac{\sin 2x}{1+\cos^2x}dx$
+
+63. $\displaystyle\int\frac{\sin 2x}{1+cos2x}dx$
+
+64. $\displaystyle\int\frac{\sin x}{1+\cos^2x}dx$
+
+65. $\displaystyle\int\cot x dx$
+
+66. $\displaystyle\int\frac{\sin x}{1+\cos^2x}dx$
+
+67. $\displaystyle\int_{e}^{e4}\frac{dx}{x\sqrt{\ln x}}$
+
+68. $\displaystyle\int_{0}^{1}xe^{-x2}dx$
+
+69. $\displaystyle\int_{0}^{1}\frac{e^z+1}{e^z+z}dz$
+
+70. $\displaystyle\int_{0}^{1/2}\frac{\sin^{-1}}{\sqrt{1-x^2}}dx$
+
+71. $\displaystyle\int_{1}^{2}(8x^3+3x^2)dx$
+
+72. $\displaystyle\int_{0}^{T}(x^4-8x+7)dx$
+
+73. $\displaystyle\int_{0}^{1}(1-x^9)dx$
+
+74. $\displaystyle\int_{0}^{1}(\sqrt[4]{u}+1)^2du$
+
+75. $\displaystyle\int_{0}^{1}y(y^2+1)^5dy$
+
+76. $\displaystyle\int_{0}^{2}y^2\sqrt{1+y^3}dy$
+
+77. $\displaystyle\int_{1}^{5}\frac{dt}{(t-4)^2}$
+
+78. $\displaystyle\int_{0}^{1}\sin(3\pi t)dt$
+
+79. $\displaystyle\int_{0}^{1}v^2\cos(v^3)dv$
+
+80. $\displaystyle\int_{-1}^{1}\frac{\sin x }{1+x^2}dx$
+
+81. $\displaystyle\int_{-\pi/4}^{\pi/4}\frac{t^4\tan t}{2+\cos t}dt$
+
+82. $\displaystyle\int\frac{x+2}{\sqrt{x^2+4x}}dx$
+
+83. $\displaystyle\int\sin \pi t \cos \pi t dt$
+
+84. $\displaystyle\int\sin x \cos(\cos x)dx$
+
+85. $\displaystyle\int_{0}^{\pi/8}\sec2\theta \tan 2\theta d\theta$
+
+86. $\displaystyle\int_{0}^{\pi/4}(1+\tan t)^3\sec^2t dt$
+
+87. $\displaystyle\int_{0}^{3}|x^2-4|dx$
+
+88. $\displaystyle\int_{0}^{4}|\sqrt{x}-1|dx$
+
+Encuentra la derivada de la función.
+
+89. $F(x)=\displaystyle\int_{0}^{x}\frac{t^2}{1+t^3}dt$
+
+90. $F(x)=\displaystyle\int_{x}^{1}\sqrt{t+\sin t}dt$
+
+91. $g(x)=\displaystyle\int_{0}^{x^4}\cos(t^2)dt$
+
+92. $g(x)=\displaystyle\int_{1}^{\sin x}\frac{1-t^2}{1+t^4}dt$
+
+93. $y=\displaystyle\int_{\sqrt{x}}^{x}\frac{\cos\theta}{\theta}d\theta$
+
+94. $y=\displaystyle\int_{2x}^{3x+1}\sin(t^4)dt$
+
+

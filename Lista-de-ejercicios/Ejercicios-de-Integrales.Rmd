@@ -433,3 +433,184 @@ Encuentra la derivada de la función.
 94. $y=\displaystyle\int_{2x}^{3x+1}\sin(t^4)dt$
 
 
+\newpage
+
+1. $\displaystyle\int\frac{\sqrt[5]{x^3}+\sqrt[6]{x}}{\sqrt{x}}dx.$
+
+2. $\displaystyle\int\frac{dx}{\sqrt{x-1}+\sqrt{x+1}}.$
+
+3. $\displaystyle\int\frac{e^x+e^{2x}+e^{3x}}{e^{4x}}dx.$
+
+4. $\displaystyle\int\frac{a^x}{b^x}dx.$
+
+5. $\displaystyle\int tg^2 x dx.$
+
+6. $\displaystyle\int\frac{dx}{a^2+x^2}.$
+
+7. $\displaystyle\int\frac{dx}{\sqrt{a^2-x^2}}.$
+
+8. $\displaystyle\int\frac{dx}{1+senx}.$
+
+9. $\displaystyle\int\frac{8x^2+6x+4}{x+1}dx.$
+
+10. $\displaystyle\int\frac{1}{\sqrt{2x-x^2}}dx.$
+
+11. $\displaystyle\int e^x\text{sen}e^xdx.$
+
+12. $\displaystyle\int xe^{-x^2}dx.$
+
+13. $\displaystyle\int\frac{logx}{x}dx.$
+
+14. $\displaystyle\int\frac{e^x dx}{e^{2x}+2e^x+1}.$
+
+15. $\displaystyle\int e^{x^2}e^x dx.$
+
+16. $\displaystyle\int\frac{x dx}{\sqrt{1-x^4}}.$
+
+17. $\displaystyle\int\frac{e\sqrt{x}}{\sqrt{x}}dx.$
+
+18. $\displaystyle\int x\sqrt{1-x^2}dx.$
+
+19. $\displaystyle\int log(\cos x) tg x dx.$
+
+20. $\displaystyle\int\frac{log(log x)}{x log x}dx.$
+
+21. $\displaystyle\int x^2e^xdx.$
+
+22. $\displaystyle\int x^3e^{x^2}dx.$
+
+23. $\displaystyle\int e^{ax}\ sen bx dx.$
+
+24. $\displaystyle\int x^2\ senx dx.$
+
+25. $\displaystyle\int (log x)^3dx.$
+
+26. $\displaystyle\int\frac{log(log x)}{x}dx.$
+
+27. $\displaystyle\int \ sec^3 x dx.$
+
+28. $\displaystyle\int\cos(log x)dx.$
+
+29. $\displaystyle\int \sqrt{x}log x dx.$
+
+30. $\displaystyle\int x(log x)^2dx.$
+
+31. $\displaystyle\int\frac{dx}{\sqrt{1-x^2}}.$
+
+32. $\displaystyle\int\frac{dx}{\sqrt{1+x^2}}.$
+
+33. $\displaystyle\int\frac{dx}{\sqrt{x^2-1}}.$
+
+34. $\displaystyle\int\frac{dx}{x\sqrt{x^2-1}}.$
+
+35. $\displaystyle\int\frac{dx}{x\sqrt{1-x^2}}.$
+
+36. $\displaystyle\int\frac{dx}{x\sqrt{1+x^2}}.$
+
+37. $\displaystyle\int x^2\sqrt{1-x^2}dx.$
+
+38. $\displaystyle\int\sqrt{1-x^2}dx.$
+
+39. $\displaystyle\int\sqrt{1+x^2}dx.$
+
+40. $\displaystyle\int\sqrt{x^2-1}dx.$
+
+41. $\displaystyle\int\frac{dx}{1+\sqrt{x+1}}.$
+
+42. $\displaystyle\int\frac{dx}{1+e^x}.$
+
+43. $\displaystyle\int\frac{dx}{\sqrt{x}+\sqrt[3]x}.$
+
+44. $\displaystyle\int\frac{dx}{\sqrt{1+e^x}}.$
+
+45. $\displaystyle\int\frac{dx}{2+tgx}.$
+
+46. $\displaystyle\int\frac{dx}{\sqrt{\sqrt{x+1}}}.$
+
+47. $\displaystyle\int\frac{4^x+1}{2^x+1}dx.$
+
+48. $\displaystyle\int\ e\sqrt{x}dx.$
+
+49. $\displaystyle\int\frac{\sqrt{1-x}}{1-\sqrt{x}}dx.$
+
+50. $\displaystyle\int\sqrt{\frac{x-1}{x+1}}.\frac{1}{x^2}dx.$
+
+51. $\displaystyle\int\frac{2x^2+7x-1}{x^3+x^2-x-1}dx.$
+
+52. $\displaystyle\int\frac{2x+1}{x^3-3x^2+3x-1}dx.$
+
+53. $\displaystyle\int\frac{x^3+7x^2-5x+5}{(x-1)^2(x+1)^3}dx.$
+
+54. $\displaystyle\int\frac{2x^2+x+1}{(x+3)(x-1)^2}dx.$
+
+55. $\displaystyle\int\frac{x+4}{x^2+1}dx.$
+
+56. $\displaystyle\int\frac{x^3+x+2}{x^4+2x^2+1}dx.$
+
+57. $\displaystyle\int\frac{3x^2+3x+1}{x^3+2x^2+2x+1}dx.$
+
+58. $\displaystyle\int\frac{dx}{x^4+1}.$
+
+59. $\displaystyle\int\frac{2x}{(x^2+x+1)^3}dx.$
+
+60. $\displaystyle\int\frac{3x}{(x2+x+1)^3}dx.$
+
+61. $\displaystyle\int\frac{\text{arctg x}}{1+x^2}dx.$
+
+62. $\displaystyle\int\frac{x\text{arctg x}}{(1+x^2)^3}.$
+
+63. $\displaystyle\int\log \sqrt{1+x^2}dx.$
+
+64. $\displaystyle\int\ x log\sqrt{1+x^2}dx.$
+
+65. $\displaystyle\int\frac{x^2-1}{x^2+1}.\frac{1}{\sqrt{1+x^4}}dx.$
+
+66. $\displaystyle\int\text{arcsen}\sqrt{x}dx.$
+
+67. $\displaystyle\int\frac{x}{1+senx}dx.$
+
+68. $\displaystyle\int e^{senx}.\frac{xcos^3x-senx}{cos^2x}dx.$
+
+69. $\displaystyle\int\sqrt{tgx}dx.$
+
+70. $\displaystyle\int\frac{dx}{x^6+1}.$
+
+71. $\displaystyle\int\log(a^2+x^2)dx.$
+
+72. $\displaystyle\int\frac{1+cosx}{sen^2x}dx.$
+
+73. $\displaystyle\int\frac{x+1}{\sqrt{4-x^2}}dx.$
+
+74. $\displaystyle\int\ x\text{arctg x}dx.$
+
+75. $\displaystyle\int sen^3 x dx.$
+
+76. $\displaystyle\int\frac{sen^3 x}{cos^2 x}dx.$
+
+77. $\displaystyle\int x^2\text{arctg x}dx.$
+
+78. $\displaystyle\int\frac{x dx}{\sqrt{x^2-2x+2}}.$
+
+79. $\displaystyle\int sec^3x\quad tg\quad x\quad dx.$
+
+80. $\displaystyle\int x\quad tg^2\quad x\quad dx.$
+
+81. $\displaystyle\int\frac{dx}{(a^2+x {2})^2}$
+
+82. $\displaystyle\int\sqrt{1-senx dx}.$
+
+83. $\displaystyle\int\text{arctg}\sqrt{x}dx.$
+
+84. $\displaystyle\int sen\sqrt{x+1}dx.$
+
+85. $\displaystyle\int\frac{\sqrt{x^3-2}}{x}dx.$
+
+86. $\displaystyle\int log(x+\sqrt{x^2-1})dx.$
+
+87. $\displaystyle\int log(x+\sqrt{x})dx.$
+
+88. $\displaystyle\int\frac{dx}{x-x^{3/5}}.$
+
+89. $\displaystyle\int\frac{dx}{1+sen x}.$
+
+90. $\displaystyle\int\frac{dx}{3+5senx}.$

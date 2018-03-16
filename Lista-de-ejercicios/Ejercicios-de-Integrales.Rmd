@@ -6,6 +6,7 @@ output:
   pdf_document:
       toc: yes
       toc_depth: 4
+      keep_tex: yes
       includes:
         in_header: ./preambulo.tex
   html_document: default
@@ -614,3 +615,272 @@ Encuentra la derivada de la función.
 89. $\displaystyle\int\frac{dx}{1+sen x}.$
 
 90. $\displaystyle\int\frac{dx}{3+5senx}.$
+
+Evaluar la integral utilizando la integración por partes con las elecciones indicadas de $u$ y $dv$.
+
+1. $\displaystyle\int x \ln x dx;\quad u=\ln x,\quad dv=x dx$
+
+2. $\displaystyle\int\theta\sec^2\theta d\theta;\quad u=\theta,\quad dv=\sec^2\theta d\theta$
+
+Evaluar la integral
+
+3. $\displaystyle\int x\cos 5x dx$
+
+4. $\displaystyle\int xe^{-x}dx$
+
+5. $\displaystyle\int re^{r/2}dr$
+
+6. $\displaystyle\int t\sin 2tdt$
+
+7. $\displaystyle\int x^2\sin\pi x dx$
+
+8. $\displaystyle\int x^2\cos mx dx$
+
+9. $\displaystyle\int \ln(2x+1)dx$
+
+10. $\displaystyle\int \sin^{-1}xdx$
+
+11. $\displaystyle\int\text{arc}\tan4tdt$
+
+12. $\displaystyle\int p^{5}\ln pdp$
+
+13. $\displaystyle\int(\ln x^2)dx$
+
+14. $\displaystyle\int t^3e^tdt$
+
+15. $\displaystyle\int e^{2\theta}\sin 3\theta d\theta$
+
+16. $\displaystyle\int e^{\theta}\cos2\theta d\theta$
+
+17. $\displaystyle\int y\sinh y dy$
+
+18. $\displaystyle\int y \cosh ay dy$
+
+19. $\displaystyle\int_0^\pi t\sin3t dt$
+
+20. $\displaystyle\int_0^1(x^2+1)e^{-x}dx$
+
+21. $\displaystyle\int_1^2\frac{\ln x}{x^2}dx$
+
+22. $\displaystyle\int_1^4\sqrt{t}\ln t dt$
+
+23. $\displaystyle\int_0^1\frac{y}{e^{2y}}dy$
+
+24. $\displaystyle\int_{\pi/4}^{\pi/2}x\csc^2xdx$
+
+25. $\displaystyle\int_0^{1/2}\cos^{-1}x dx$
+
+26. $\displaystyle\int_0^1x5^xdx$
+
+27. $\displaystyle\int\cos x \ln(\sin x)dx$
+
+28. $\displaystyle\int_1^{\sqrt{3}}\arctan(1/x)dx$
+
+29. $\displaystyle\int\cos(\ln x)dx$
+
+30. $\displaystyle\int_0^1\frac{r^3}{\sqrt{4+r^2}}dr$
+
+31. $\displaystyle\int_1^2x^4(\ln x)^2dx$
+
+32. $\displaystyle\int_0^te^s\sin(t-s)ds$
+
+Primero realice una sustitución y luego use la integración por partes para evaluar la integral.
+
+33. $\displaystyle\int\sin\sqrt{x}dx$
+
+34. $\displaystyle\int_1^4e^{\sqrt{x}}dx$
+
+35. $\displaystyle\int_{\sqrt{\pi/2}}^{\sqrt{\pi}}\theta^3\cos(\theta^2)d\theta$
+
+36. $\displaystyle\int x^5e^{x^2}dx$
+
+37. $\displaystyle\int x\cos\pi xdx$
+
+38. $\displaystyle\int x^{3/2}\ln x dx$
+
+39. $\displaystyle\int(2x+3)e^x dx$
+
+40. $\displaystyle\int x^3 e^{x^2} dx$
+
+41.
+
+a. Demuestre que:
+
+$\displaystyle\int\sin^2xdx=\frac{x}{2}-\frac{\sin 2x}{4}+C$
+
+b. Use la parte (a) y la fórmula de reducción para evaluar $\displaystyle\int \sin^4x dx.$
+
+42.
+
+a. Demuestre la fórmula de reducción
+
+$\displaystyle\int\cos^nxdx=\frac{1}{n}\cos^{n-1}x\sin x+\frac{n-1}{n}\displaystyle\int \cos^{n-2}xdx$
+
+b. Use la parte (a) para evaluar $\displaystyle\int\cos^2xdx.$
+
+c. Use las partes (a) y (b) para evaluar $\displaystyle\int\cos^4xdx.$
+
+43.
+
+a. Demuestre que:
+
+$$\displaystyle\int_0^{\pi/2}\sin^nxdx=\frac{n-1}{n}\displaystyle\int_0^{\pi/2}\sin^{n-2}xdx$$
+Cuando $n\ge2$ es un numero entero.
+
+b. Use la parte (a) para evaluar, $\displaystyle\int_0^{\pi/2}\sin^3x dx\quad y\quad \displaystyle\int_0^{\pi/2}\sin^5dx.$
+
+c. Use la parte (a) para mostrar que, para las potencias impares del seno,
+
+$$\displaystyle\int_0^{\pi/2}\sin^{2n+1}xdx=\frac{2.4.6.....2n}{3.5.7.....(2n+1)}$$
+44. Demuestre que, incluso para las potencias del seno:
+
+$$\displaystyle\int_0^{\pi/2}\sin^{2n}xdx=\frac{1.3.5.....(2n-1)}{2.4.6.....2n}\frac{\pi}{2}$$
+
+Use la integración por partes para probar la fórmula de reducción
+
+45. $\displaystyle\int(\ln x)^ndx=x(\ln x)^n-n\displaystyle\int(\ln x)^{n-1}dx$
+
+46. $\displaystyle\int x^ne^xdx=x^ne^x-n\displaystyle\int x^{n-1}e^xdx$
+
+47. $\displaystyle\int(x^2+a^2)^ndx =\frac{x(x^2+a^2)^n}{2n+1}+\frac{2na^2}{2n+1}\displaystyle\int(x^2+a^2)^{n-1}dx\quad (n\ne-\frac{1}{2})$
+
+48. $\displaystyle\int\sec^nx dx=\frac{\tan x\sec^{n-2}x}{n-1}+\frac{n-1}{n-1}\displaystyle\int\sec^{n-2}xdx\quad (n\ne1)$
+
+49. Usa el ejercicio 45 para encontrar $\displaystyle\int(\ln x)^3dx.$
+
+50. Usa el ejercicio 46 para encontrar $\displaystyle\int x^4e^xdx.$
+
+Encuentra el área de la región delimitada por las curvas dadas.
+
+51. $y=xe^{-0,4x},\quad y=0,\quad x=5$
+
+52. $y=5\ln x,\quad y=x\ln x$
+
+\newpage
+
+Integrales trigonométricas
+
+Evaluar la integral.
+
+1. $\displaystyle\int\sin^3x\cos^2xdx$
+
+2. $\displaystyle\int\sin^6x\cos^3xdx$
+
+3. $\displaystyle\int\_{\pi/2}^{3\pi/4}\sin^5x\cos^3xdx$
+
+4. $\displaystyle\int_0^{\pi/2}\cos^5xdx$
+
+5. $\displaystyle\int\cos^5x\sin^4xdx$
+
+6. $\displaystyle\int\\sin^3(mx)dx$
+
+7. $\displaystyle\int_0^{\pi/2}\cos^2\theta d\theta$
+
+8. $\displaystyle\int_0^{\pi/2}\sin^2(2\theta)d\theta$
+
+9. $\displaystyle\int_0^{\pi}\sin^4(3t)dt$
+
+10. $\displaystyle\int_0^{\pi}\cos^6\theta d\theta$
+
+11. $\displaystyle\int(1+\cos\theta)^2d\theta$
+
+12. $\displaystyle\int x\cos^2xdx$
+
+13. $\displaystyle\int_0^{\pi/4}\sin^4xcos^2xdx$
+
+14. $\displaystyle\int_0^{\pi/2}\sin^2x\cos^2xdx$
+
+15. $\displaystyle\int\sin^3x\sqrt{\cos x}dx$
+
+16. $\displaystyle\int\cos\theta\cos^5(sin \theta)d\theta$
+
+17. $\displaystyle\int\cos^2x\tan^3xdx$
+
+18. $\displaystyle\int\cot^5\theta\sin^4\theta d\theta$
+
+19. $\displaystyle\int\frac{1-\sin x}{\cos x }dx$
+
+20. $\displaystyle\int\cos^2 x\sin 2xdx$
+
+21. $\displaystyle\int\sec^2x\tan x dx$
+
+22. $\displaystyle\int_0^{\pi/2}\sec^4(t/2)dt$
+
+23. $\displaystyle\int\tan^2xdx$
+
+24. $\displaystyle\int\tan^4xdx$
+
+25. $\displaystyle\int\sec^6tdt$
+
+26. $\displaystyle\int_0^{\pi/4}\sec^4\theta\tan^4\theta d\theta$
+
+27. $\displaystyle\int_0^{\pi/3}\tan^5\sec^4xdx$
+
+28. $\displaystyle\int\tan^3(2x)\sec^5(2x)dx$
+
+29. $\displaystyle\int\tan^3\sec xdx$
+
+30. $\displaystyle\int_0^{\pi/3}\tan^5x\sec^6xdx$
+
+31. $\displaystyle\int\tan^5x dx$
+
+32. $\displaystyle\int\tan^6(ay)dy$
+
+33. $\displaystyle\int\frac{\tan^3\theta}{\cos^4\theta}d\theta$
+
+34. $\displaystyle\int\tan^2x \sec xdx$
+
+35. $\displaystyle\int_{\pi/6}^{\pi/2}\cot^2 x dx$
+
+36. $\displaystyle\int_{\pi/4}^{\pi/2}\cot^3x dx$
+
+37. $\displaystyle\int\cot^3\alpha\csc^3\alpha d\alpha$
+
+38. $\displaystyle\int\csc^4x\cot^5x dx$
+
+39. $\displaystyle\int\csc x dx$
+
+40. $\displaystyle\int_{\pi/6}^{\pi/3}\csc^3x dx$
+
+41. $\displaystyle\int\sin 5x\sin 2x dx$
+
+42. $\displaystyle\int\sin 3x\cos x dx$
+
+43. $\displaystyle\int\cos 7\theta\cos 5\theta d\theta$
+
+44. $\displaystyle\int\frac{\cos x+\sin x}{\sin 2x}dx$
+
+45. $\displaystyle\int\frac{1-\tan^2x}{\sec^2x}dx$
+
+46. $\displaystyle\int\frac{dx}{\cos x-1}$
+
+47. $\displaystyle\int t\sec^2(t^2)\tan^4(t^2)dt$
+
+48. Si $\displaystyle\int_0^{\pi/4}\tan^6x\sec xdx=I$ exprese el valor de $\displaystyle\int_0^{\pi/4}\tan^8x \sec x dx$ en terminos de $I$.
+
+Evalúa la integral indefinida. Ilustre y compruebe que su respuesta es razonable, graficando tanto el integrando como su antiderivada (tomando $C=0$)
+
+49. $\displaystyle\int\sin^5xdx$
+
+50. $\displaystyle\int\sin^4x\cos^4xdx$
+
+51. $\displaystyle\int\sin 3x\sin 6x dx$
+
+52. $\displaystyle\int\sec^4 \frac{x}{2}dx$
+
+Evaluar la integral usando la sustitución trigonométrica indicada. Dibuje y etiquete el triángulo rectángulo asociado.
+
+1. $\displaystyle\int\frac{1}{x^2\sqrt{x^2-9}}dx;\quad x=3\sec \theta$
+
+2. $\displaystyle\int x^3\sqrt{9-x^2}dx;\quad x=3\sin\theta$
+
+3. $\displaystyle\int\frac{x^3}{\sqrt{x^2+9}}dx;\quad x=3\tan\theta$
+
+4. $\displaystyle\int_0^{2\sqrt{3}}\frac{x^3}{\sqrt{16-x^2}}dx$
+
+5. $\displaystyle\int_{\sqrt{2}}^2\frac{1}{t^3\sqrt{t^2-1}}dt$
+
+6. $\displaystyle\int_0^2x^3\sqrt{x^2+4}dx$
+
+7. $\displaystyle\int\frac{1}{x^2\sqrt{25-x^2}}dx$
+

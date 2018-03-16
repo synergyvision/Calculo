@@ -1,0 +1,1134 @@
+\documentclass[12pt,]{article}
+\usepackage{lmodern}
+\usepackage{cancel}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Ejercicios de Integrales},
+            pdfauthor={http://synergy.vision/},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+  \title{Ejercicios de Integrales}
+  \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+\subtitle{Cálculo}
+  \author{\url{http://synergy.vision/}}
+  \preauthor{\centering\large\emph}
+  \postauthor{\par}
+  \date{}
+  \predate{}\postdate{}
+
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{color}
+\usepackage{lastpage}
+\usepackage{anysize}
+\papersize{27.9cm}{21.5cm}
+\marginsize{2.0cm}{2.0cm}{2.0cm}{2.0cm}
+%\marginsize{Izque}{Derec}{Arrib}{Abajo}
+\pagestyle{fancy}
+\lhead{\includegraphics[width = 2.5cm]{./img/vision-black.png}}
+\rhead{\textcolor[gray]{0.6}{(\thepage\ de \pageref{LastPage})}}
+\lfoot{\scriptsize{\textcolor[gray]{0.2}{Diplomado de Probabilidad y Estadística Matemática en R}} \\\scriptsize{\textcolor[gray]{0.6}{\textbf{Dirección:}} \textcolor[gray]{0.2}{Av. Mohedano, Urbanización La Castellana, Centro Gerencial Mohedano,\\ Municipio Chacao del Estado Miranda, CP 1060, Venezuela.}\\\textcolor[gray]{0.6}{\textbf{Master:}} \textcolor[gray]{0.2}{263-08-08}, \textcolor[gray]{0.6}{\textbf{Email:}} \textcolor[gray]{0}{cursos@synergy.vision}}}
+\cfoot{}
+\rfoot{\scriptsize{\textbf{http://synergy.vision/}}}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\renewcommand{\rmdefault}{phv}
+\renewcommand{\sfdefault}{phv}
+\renewcommand{\contentsname}{Contenido}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{4}
+\tableofcontents
+}
+\newpage
+
+Use la Parte 1 del Teorema Fundamental del Cálculo para encontrar la
+derivada de la función.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \(g(x)=\displaystyle\int_{1}^{x}\frac{1}{t^3+1}dt\)
+\item
+  \(g(x)=\displaystyle\int_{1}^{x}(2+t^4)^5dt\)
+\item
+  \(g(s)=\displaystyle\int_{5}^{s}(t-t^2)^8dt\)
+\item
+  \(g(r)=\displaystyle\int_{0}^{r}\sqrt{x^2+4}dx\)
+\item
+  \(F(x)=\displaystyle\int_{x}^{\pi}\sqrt{1+\text{sec}t}dt\)
+\end{enumerate}
+
+\[\left[\displaystyle\int_{x}^{\pi}\sqrt{1+\text{sec}t}dt=-\displaystyle\int_{\pi}^{x} \sqrt{1+\text{sec}}tdt\right]\]
+6. \(G(x)=\displaystyle\int_{1}^{x}\text{cos}\sqrt{t}dt\)
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{6}
+\item
+  \(h(x)=\displaystyle\int_{2}^{1/x}\text{sin}^4tdt\)
+\item
+  \(h(x)=\displaystyle\int_{1}^{\sqrt{x}}\frac{z^2}{z^4+1}dz\)
+\item
+  \(y=\displaystyle\int_{0}^{tanx}\sqrt{t+\sqrt{t}}dt\)
+\item
+  \(y=\displaystyle\int_{0}^{x^4}\text{cos}^2\theta d\theta\)
+\item
+  \(y=\displaystyle\int_{1-3x}^{1}\frac{u^3}{1+u^2}du\)
+\item
+  \(y=\displaystyle\int_{sinx}^{1}\sqrt{1+t^2}dt\)
+\end{enumerate}
+
+Evaluar la integral.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{12}
+\item
+  \(\displaystyle\int_{-1}^{2}(x^3-2x)dx\)
+\item
+  \(\displaystyle\int_{-1}^{1}x^{100}dx\)
+\item
+  \(\displaystyle\int_{1}^{4}(5-2t+3t^2)dt\)
+\item
+  \(\displaystyle\int_{0}^{1}(1+\frac{1}{2}u^4-\frac{2}{5}u^9)\)
+\item
+  \(\displaystyle\int_{1}^{9}\sqrt{x}dx\)
+\item
+  \(\displaystyle\int_{1}^{8}x^{-2/3}dx\)
+\item
+  \(\displaystyle\int_{\pi/6}^{\pi}\text{sin}\theta d \theta\)
+\item
+  \(\displaystyle\int_{-5}^{5}\pi dx\)
+\item
+  \(\displaystyle\int_{0}^{1}(u+2)(u-3)du\)
+\item
+  \(\displaystyle\int_{0}^{4}(4-t)\sqrt{t}dt\)
+\item
+  \(\displaystyle\int_{1}^{9}\frac{x-1}{\sqrt{x}}dx\)
+\item
+  \(\displaystyle\int_{0}^{2}(y-1)(2y+1)\)
+\item
+  \(\displaystyle\int_{0}^{\pi/4}\text{sec}^2tdt\)
+\item
+  \(\displaystyle\int_{0}^{\pi/4}\text{sec}\theta\quad \text{tan}\theta\quad d\theta\)
+\item
+  \(\displaystyle\int_{1}^{2}(1+2y)^2dy\)
+\item
+  \(\displaystyle\int_{1}^{2}\frac{s^4+1}{s^2}ds\)
+\item
+  \(\displaystyle\int_{1}^{2}\frac{v^5+3v^6}{v^4}dv\)
+\item
+  \(\displaystyle\int_{1}^{18}\sqrt{\frac{3}{z}}dz\)
+\item
+  \(\displaystyle\int_{0}^{\pi}f(x)dx\quad \text{donde}\quad f(x)=\left\{ \begin{matrix} \text{sin} x & \text{si} & 0\le & x<\pi/2\\ \text{cos} x & \text{si} & \pi/2\le & x\le\pi \end{matrix} \right .\)
+\item
+  \(\displaystyle\int_{-2}^{2}f(x)dx\quad \text{donde}\quad f(x)=\left\{ \begin{matrix} 2 & \text{si} & -2\le & x \le 0\\ 4 - x^2 & \text{si} & 0 < & x\le 2 \end{matrix} \right .\)
+\end{enumerate}
+
+¿Qué está mal con la ecuación?
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{32}
+\item
+  \(\displaystyle\int_{-2}^{1}x^{-4}dx=\frac{x^{-3}}{-3}\big|_{-2}^{1}=-\frac{3}{8}\)
+\item
+  \(\displaystyle\int_{-1}^{2}\frac{4}{x^3}dx=-\frac{2}{x^2}\big|_{-1}^{2}=\frac{3}{2}\)
+\item
+  \(\displaystyle\int_{\pi/3}^{\pi}\sec\theta\tan\theta d\theta=\sec\theta\big|_{\pi/3}^{\pi}=-3\)
+\item
+  \(\displaystyle\int_{0}^{\pi}\sec^2 x dx=\tan x\big|_{0}^{\pi}=0\)
+\end{enumerate}
+
+Use un gráfico para dar una estimación aproximada del área de la región
+que se encuentra debajo de la curva dada. Luego encuentra el área
+exacta.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{36}
+\item
+  \(y=\sqrt[3]{x},\quad 0\le x \le 27\)
+\item
+  \(y=x^{-4},\quad 1\le x \le 6\)
+\item
+  \(y=\sin x,\quad 0\le x \le \pi\)
+\item
+  \(y=\sec^2x,\quad 0\le x \le\pi/3\)
+\end{enumerate}
+
+Evaluar la integral.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{40}
+\item
+  \(\displaystyle\int_{1}^{9}\frac{1}{2x}dx\)
+\item
+  \(\displaystyle\int_{0}^{1}10^xdx\)
+\item
+  \(\displaystyle\int_{1/2}^{\sqrt{3/2}}\frac{6}{\sqrt{1-t^2}}dt\)
+\item
+  \(\displaystyle\int_{0}^{1}\frac{4}{t^2+1}dt\)
+\item
+  \(\displaystyle\int_{-1}^{1}e^{u+1}du\)
+\item
+  \(\displaystyle\int_{1}^{2}\frac{4+u^2}{u^3}du\)
+\end{enumerate}
+
+\newpage
+
+Verificar por diferenciación que la fórmula es correcta.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \(\displaystyle\int\frac{1}{x^2\sqrt{1+x^2}}dx=-\frac{\sqrt{1+x^2}}{x}+C\)
+\item
+  \(\displaystyle\int\cos^2xdx=\frac{1}{2}x+\frac{1}{4}\sin 2x+C\)
+\item
+  \(\displaystyle\int\cos^3xdx= \sin x-\frac{1}{3}\sin^3x+C\)
+\item
+  \(\displaystyle\int\frac{x}{\sqrt{a+bx}}dx=\frac{2}{3b^2}(bx-2a)\sqrt{a+bx}+C\)
+\end{enumerate}
+
+Encuentra la integral general indefinida.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\item
+  \(\displaystyle\int(x^2+x^{-2})dx\)
+\item
+  \(\displaystyle\int(\sqrt{x^3}+\sqrt[3]{x^2})dx\)
+\item
+  \(\displaystyle\int(x^4-\frac{1}{2}x^3+\frac{1}{4}x-2)dx\)
+\item
+  \(\displaystyle\int(y^3+1.8y^2-2.4y)dy\)
+\item
+  \(\displaystyle\int(u+4)(2u+1)du\)
+\item
+  \(\displaystyle\int v(v^2+2)^2dv\)
+\item
+  \(\displaystyle\int\frac{x^3-2\sqrt{x}}{x}dx\)
+\item
+  \(\displaystyle\int\left(u^2+1+\frac{1}{u^2}\right)du\)
+\item
+  \(\displaystyle\int(\theta-\csc\theta\cot\theta)d\theta\)
+\item
+  \(\displaystyle\int\sec t(\sec t+\tan t)dt\)
+\item
+  \(\displaystyle\int(1+\tan^2\alpha)d\alpha\)
+\item
+  \(\displaystyle\int\frac{\sin2x}{\sin x}dx\)
+\end{enumerate}
+
+Evaluar la integral.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{16}
+\item
+  \(\displaystyle\int_{-2}^{3}(x^2-3)dx\)
+\item
+  \(\displaystyle\int_{1}^{2}(4x^3-3x^2+2x)dx\)
+\item
+  \(\displaystyle\int_{-2}^{0}(\frac{1}{2}t^4+\frac{1}{4}t^3-t)dt\)
+\item
+  \(\displaystyle\int_{0}^{3}(1+6w^2-10w^4)dw\)
+\item
+  \(\displaystyle\int_{0}^{2}(2x-3)(4x^2+1)dx\)
+\item
+  \(\displaystyle\int_{-1}^{1}t(1-t)^2dt\)
+\item
+  \(\displaystyle\int_{0}^{\pi}(4\sin\theta-3\cos\theta)d\theta\)
+\item
+  \(\displaystyle\int_{1}^{2}\left(\frac{1}{x^2}-\frac{4}{x^3}\right)dx\)
+\item
+  \(\displaystyle\int_{1}^{4}\left(\frac{4+6u}{\sqrt{u}}\right)du\)
+\item
+  \(\displaystyle\int_{1}^{2}\left(x+\frac{1}{x}\right)^2dx\)
+\item
+  \(\displaystyle\int_{1}^{2}\sqrt{\frac{5}{x}}dx\)
+\item
+  \(\displaystyle\int_{1}^{9}\frac{3x-2}{\sqrt{x}}dx\)
+\item
+  \(\displaystyle\int_{1}^{4}\sqrt{t}(1+t)dt\)
+\item
+  \(\displaystyle\int_{\pi/4}^{\pi/3}\csc^2\theta d\theta\)
+\item
+  \(\displaystyle\int_{0}^{\pi/4}\frac{1+\cos^2\theta}{\cos^2\theta}d\theta\)
+\item
+  \(\displaystyle\int_{0}^{\pi/3}\frac{\sin\theta+\sin\theta\tan^2\theta}{\sec^2\theta}d\theta\)
+\item
+  \(\displaystyle\int_{1}^{64}\frac{1+\sqrt[3]{x}}{\sqrt{x}}dx\)
+\item
+  \(\displaystyle\int_{1}^{8}\frac{x-1}{\sqrt[3]{x^2}}dx\)
+\item
+  \(\displaystyle\int_{0}^{1}(\sqrt[4]{x^5}+\sqrt[5]{x^4})dx\)
+\item
+  \(\displaystyle\int_{0}^{1}(1+x^2)^3dx\)
+\item
+  \(\displaystyle\int_{2}^{5}|x-3|dx\)
+\item
+  \(\displaystyle\int_{0}^{2}|2x-1|dx\)
+\item
+  \(\displaystyle\int_{-1}^{2}(x-2|x|)dx\)
+\item
+  \(\displaystyle\int_{0}^{3\pi/2}|\sin x|dx\)
+\item
+  \(\displaystyle\int(\sin x + \sin h x )dx\)
+\item
+  \(\displaystyle\int_{-10}^{10}\frac{2e^{x}}{\sinh x + \cosh x}dx\)
+\item
+  \(\displaystyle\int\left(x^2+1+\frac{1}{x^2+1}\right)dx\)
+\item
+  \(\displaystyle\int_{1}^{2}\frac{(x-1)^3}{x^2}dx\)
+\item
+  \(\displaystyle\int_{0}^{1/\sqrt{3}}\frac{t^2-1}{t^4-1}dt\)
+\end{enumerate}
+
+Evalúa la integral haciendo la sustitución dada.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \(\displaystyle\int\sin\pi x dx,\quad u=\pi x\)
+\item
+  \(\displaystyle\int x^3(2+x^4)^5dx,\quad u=2+x^4\)
+\item
+  \(\displaystyle\int x^2\sqrt{x^3+1}dx,\quad u=x^3+1\)
+\item
+  \(\displaystyle\int\frac{dt}{(1-6t)^4},\quad u=1-6t\)
+\item
+  \(\displaystyle\int\cos^3\theta\sin\theta d\theta,\quad u=\cos\theta\)
+\item
+  \(\displaystyle\int\frac{\sec^2(1/x)}{x^2}dx,\quad u=1/x\)
+\end{enumerate}
+
+Evaluar la integral indefinida.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{6}
+\item
+  \(\displaystyle\int x\sin(x^2)dx\)
+\item
+  \(\displaystyle\int x^2\cos(x^3)dx\)
+\item
+  \(\displaystyle\int(1-2x)^9dx\)
+\item
+  \(\displaystyle\int(3t+2)^{2.4}dt\)
+\item
+  \(\displaystyle\int(x+1)\sqrt{2x+x^2}dx\)
+\item
+  \(\displaystyle\int\sec^22\theta d\theta\)
+\item
+  \(\displaystyle\int\sec3t\tan3t dt\)
+\item
+  \(\displaystyle\int u\sqrt{1-u^2}du\)
+\item
+  \(\displaystyle\int\frac{a+bx^2}{\sqrt{3ax+bx^3}}dx\)
+\item
+  \(\displaystyle\int\frac{\sin\sqrt{x}}{\sqrt{x}}dx\)
+\item
+  \(\displaystyle\int\sec^2\theta\tan^3\theta d\theta\)
+\item
+  \(\displaystyle\int\cos^4\theta\sin\theta d\theta\)
+\item
+  \(\displaystyle\int(x^2+1)(x^3+3x)^4dx\)
+\item
+  \(\displaystyle\int\sqrt{x}\sin(1+x^{3/2})dx\)
+\item
+  \(\displaystyle\int\frac{\cos x}{\sin^2 x}dx\)
+\item
+  \(\displaystyle\int\frac{\cos(\pi/x)}{x^2}dx\)
+\item
+  \(\displaystyle\int\frac{z^2}{\sqrt[3]{1+z^3}}dz\)
+\item
+  \(\displaystyle\int\frac{dt}{\cos^2t\sqrt{1+\tan t}}\)
+\item
+  \(\displaystyle\int\sqrt{\cot x}\csc^2 xdx\)
+\item
+  \(\displaystyle\int\sin t \sec^2(\cos t)dt\)
+\item
+  \(\displaystyle\int\sec^3 x \tan x dx\)
+\item
+  \(\displaystyle\int x^2\sqrt{2+x}dx\)
+\item
+  \(\displaystyle\int x(2x+5)^8dx\)
+\item
+  \(\displaystyle\int x^3\sqrt{x^2+1}dx\)
+\end{enumerate}
+
+Evalúa la integral indefinida. Ilustre y compruebe que su respuesta es
+razonable graficando tanto la función como su antiderivada (tomar
+\(C=0\)).
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{30}
+\item
+  \(\displaystyle\int x (x^2-1)^3dx\)
+\item
+  \(\displaystyle\int\tan^2 \theta \sec^2 \theta d\theta\)
+\item
+  \(\displaystyle\int\sin^3 x \cos x dx\)
+\item
+  \(\displaystyle\int\sin x \cos^4 x dx\)
+\end{enumerate}
+
+Evaluar la integral definida.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{34}
+\item
+  \(\displaystyle\int_{0}^{1}\cos(\pi t/2)dt\)
+\item
+  \(\displaystyle\int_{0}^{1}(3t-1)^{50}dt\)
+\item
+  \(\displaystyle\int_{0}^{1}\sqrt[3]{1+7x}dx\)
+\item
+  \(\displaystyle\int_{0}^{\sqrt{\pi}}x \cos(x^2)dx\)
+\item
+  \(\displaystyle\int_{0}^{\pi}\sec^2(t/4)dt\)
+\item
+  \(\displaystyle\int_{1/6}^{1/2}\csc\pi t\cot \pi t dt\)
+\item
+  \(\displaystyle\int_{-\pi/4}^{\pi/4}(x^3+x^4\tan x)dx\)
+\item
+  \(\displaystyle\int_{0}^{\pi/2}\cos x \sin(\sin x)dx\)
+\item
+  \(\displaystyle\int_{0}^{13}\frac{dx}{\sqrt[3](1+2x)^2}\)
+\item
+  \(\displaystyle\int_{0}^{a}x\sqrt{a^2-x^2}dx\)
+\item
+  \(\displaystyle\int_{0}^{a}x\sqrt{x^2+a^2}dx\quad (a>0)\)
+\item
+  \(\displaystyle\int_{-\pi/3}^{\pi/3}x^4\sin x dx\)
+\item
+  \(\displaystyle\int_{1}^{2}x\sqrt{x-1}dx\)
+\item
+  \(\displaystyle\int_{0}^{4}\frac{x}{\sqrt{1+2x}}dx\)
+\item
+  \(\displaystyle\int_{1/2}^{1}\frac{\cos(x^{-2})}{x^3}dx\)
+\item
+  \(\displaystyle\int_{0}^{T/2}\sin(2\pi t/T-\alpha)dt\)
+\item
+  \(\displaystyle\int_{0}^{1}\frac{dx}{(1+\sqrt{x})^4}\)
+\end{enumerate}
+
+Evaluar la integral.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{51}
+\item
+  \(\displaystyle\int\frac{dx}{5-3x}\)
+\item
+  \(\displaystyle\int e^x\sin(e^x)dx\)
+\item
+  \(\displaystyle\int\frac{(\ln x)^2}{x}dx\)
+\item
+  \(\displaystyle\int\frac{dx}{ax+b}(a\ne0)\)
+\item
+  \(\displaystyle\int e^{\tan x}\sec^2xdx\)
+\item
+  \(\displaystyle\int e ^{\cos t}\sin t dt\)
+\item
+  \(\displaystyle\int e^{\tan x}\sec^2x dx\)
+\item
+  \(\displaystyle\int\frac{\tan^{-1}x}{1+x^2}dx\)
+\item
+  \(\displaystyle\int\frac{1+x}{1+x^2}dx\)
+\item
+  \(\displaystyle\int\frac{\sin(\ln x)}{x}dx\)
+\item
+  \(\displaystyle\int\frac{\sin 2x}{1+\cos^2x}dx\)
+\item
+  \(\displaystyle\int\frac{\sin 2x}{1+cos2x}dx\)
+\item
+  \(\displaystyle\int\frac{\sin x}{1+\cos^2x}dx\)
+\item
+  \(\displaystyle\int\cot x dx\)
+\item
+  \(\displaystyle\int\frac{\sin x}{1+\cos^2x}dx\)
+\item
+  \(\displaystyle\int_{e}^{e4}\frac{dx}{x\sqrt{\ln x}}\)
+\item
+  \(\displaystyle\int_{0}^{1}xe^{-x2}dx\)
+\item
+  \(\displaystyle\int_{0}^{1}\frac{e^z+1}{e^z+z}dz\)
+\item
+  \(\displaystyle\int_{0}^{1/2}\frac{\sin^{-1}}{\sqrt{1-x^2}}dx\)
+\item
+  \(\displaystyle\int_{1}^{2}(8x^3+3x^2)dx\)
+\item
+  \(\displaystyle\int_{0}^{T}(x^4-8x+7)dx\)
+\item
+  \(\displaystyle\int_{0}^{1}(1-x^9)dx\)
+\item
+  \(\displaystyle\int_{0}^{1}(\sqrt[4]{u}+1)^2du\)
+\item
+  \(\displaystyle\int_{0}^{1}y(y^2+1)^5dy\)
+\item
+  \(\displaystyle\int_{0}^{2}y^2\sqrt{1+y^3}dy\)
+\item
+  \(\displaystyle\int_{1}^{5}\frac{dt}{(t-4)^2}\)
+\item
+  \(\displaystyle\int_{0}^{1}\sin(3\pi t)dt\)
+\item
+  \(\displaystyle\int_{0}^{1}v^2\cos(v^3)dv\)
+\item
+  \(\displaystyle\int_{-1}^{1}\frac{\sin x }{1+x^2}dx\)
+\item
+  \(\displaystyle\int_{-\pi/4}^{\pi/4}\frac{t^4\tan t}{2+\cos t}dt\)
+\item
+  \(\displaystyle\int\frac{x+2}{\sqrt{x^2+4x}}dx\)
+\item
+  \(\displaystyle\int\sin \pi t \cos \pi t dt\)
+\item
+  \(\displaystyle\int\sin x \cos(\cos x)dx\)
+\item
+  \(\displaystyle\int_{0}^{\pi/8}\sec2\theta \tan 2\theta d\theta\)
+\item
+  \(\displaystyle\int_{0}^{\pi/4}(1+\tan t)^3\sec^2t dt\)
+\item
+  \(\displaystyle\int_{0}^{3}|x^2-4|dx\)
+\item
+  \(\displaystyle\int_{0}^{4}|\sqrt{x}-1|dx\)
+\end{enumerate}
+
+Encuentra la derivada de la función.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{88}
+\item
+  \(F(x)=\displaystyle\int_{0}^{x}\frac{t^2}{1+t^3}dt\)
+\item
+  \(F(x)=\displaystyle\int_{x}^{1}\sqrt{t+\sin t}dt\)
+\item
+  \(g(x)=\displaystyle\int_{0}^{x^4}\cos(t^2)dt\)
+\item
+  \(g(x)=\displaystyle\int_{1}^{\sin x}\frac{1-t^2}{1+t^4}dt\)
+\item
+  \(y=\displaystyle\int_{\sqrt{x}}^{x}\frac{\cos\theta}{\theta}d\theta\)
+\item
+  \(y=\displaystyle\int_{2x}^{3x+1}\sin(t^4)dt\)
+\end{enumerate}
+
+\newpage
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \(\displaystyle\int\frac{\sqrt[5]{x^3}+\sqrt[6]{x}}{\sqrt{x}}dx.\)
+\item
+  \(\displaystyle\int\frac{dx}{\sqrt{x-1}+\sqrt{x+1}}.\)
+\item
+  \(\displaystyle\int\frac{e^x+e^{2x}+e^{3x}}{e^{4x}}dx.\)
+\item
+  \(\displaystyle\int\frac{a^x}{b^x}dx.\)
+\item
+  \(\displaystyle\int tg^2 x dx.\)
+\item
+  \(\displaystyle\int\frac{dx}{a^2+x^2}.\)
+\item
+  \(\displaystyle\int\frac{dx}{\sqrt{a^2-x^2}}.\)
+\item
+  \(\displaystyle\int\frac{dx}{1+senx}.\)
+\item
+  \(\displaystyle\int\frac{8x^2+6x+4}{x+1}dx.\)
+\item
+  \(\displaystyle\int\frac{1}{\sqrt{2x-x^2}}dx.\)
+\item
+  \(\displaystyle\int e^x\text{sen}e^xdx.\)
+\item
+  \(\displaystyle\int xe^{-x^2}dx.\)
+\item
+  \(\displaystyle\int\frac{logx}{x}dx.\)
+\item
+  \(\displaystyle\int\frac{e^x dx}{e^{2x}+2e^x+1}.\)
+\item
+  \(\displaystyle\int e^{x^2}e^x dx.\)
+\item
+  \(\displaystyle\int\frac{x dx}{\sqrt{1-x^4}}.\)
+\item
+  \(\displaystyle\int\frac{e\sqrt{x}}{\sqrt{x}}dx.\)
+\item
+  \(\displaystyle\int x\sqrt{1-x^2}dx.\)
+\item
+  \(\displaystyle\int log(\cos x) tg x dx.\)
+\item
+  \(\displaystyle\int\frac{log(log x)}{x log x}dx.\)
+\item
+  \(\displaystyle\int x^2e^xdx.\)
+\item
+  \(\displaystyle\int x^3e^{x^2}dx.\)
+\item
+  \(\displaystyle\int e^{ax}\ sen bx dx.\)
+\item
+  \(\displaystyle\int x^2\ senx dx.\)
+\item
+  \(\displaystyle\int (log x)^3dx.\)
+\item
+  \(\displaystyle\int\frac{log(log x)}{x}dx.\)
+\item
+  \(\displaystyle\int \ sec^3 x dx.\)
+\item
+  \(\displaystyle\int\cos(log x)dx.\)
+\item
+  \(\displaystyle\int \sqrt{x}log x dx.\)
+\item
+  \(\displaystyle\int x(log x)^2dx.\)
+\item
+  \(\displaystyle\int\frac{dx}{\sqrt{1-x^2}}.\)
+\item
+  \(\displaystyle\int\frac{dx}{\sqrt{1+x^2}}.\)
+\item
+  \(\displaystyle\int\frac{dx}{\sqrt{x^2-1}}.\)
+\item
+  \(\displaystyle\int\frac{dx}{x\sqrt{x^2-1}}.\)
+\item
+  \(\displaystyle\int\frac{dx}{x\sqrt{1-x^2}}.\)
+\item
+  \(\displaystyle\int\frac{dx}{x\sqrt{1+x^2}}.\)
+\item
+  \(\displaystyle\int x^2\sqrt{1-x^2}dx.\)
+\item
+  \(\displaystyle\int\sqrt{1-x^2}dx.\)
+\item
+  \(\displaystyle\int\sqrt{1+x^2}dx.\)
+\item
+  \(\displaystyle\int\sqrt{x^2-1}dx.\)
+\item
+  \(\displaystyle\int\frac{dx}{1+\sqrt{x+1}}.\)
+\item
+  \(\displaystyle\int\frac{dx}{1+e^x}.\)
+\item
+  \(\displaystyle\int\frac{dx}{\sqrt{x}+\sqrt[3]x}.\)
+\item
+  \(\displaystyle\int\frac{dx}{\sqrt{1+e^x}}.\)
+\item
+  \(\displaystyle\int\frac{dx}{2+tgx}.\)
+\item
+  \(\displaystyle\int\frac{dx}{\sqrt{\sqrt{x+1}}}.\)
+\item
+  \(\displaystyle\int\frac{4^x+1}{2^x+1}dx.\)
+\item
+  \(\displaystyle\int\ e\sqrt{x}dx.\)
+\item
+  \(\displaystyle\int\frac{\sqrt{1-x}}{1-\sqrt{x}}dx.\)
+\item
+  \(\displaystyle\int\sqrt{\frac{x-1}{x+1}}.\frac{1}{x^2}dx.\)
+\item
+  \(\displaystyle\int\frac{2x^2+7x-1}{x^3+x^2-x-1}dx.\)
+\item
+  \(\displaystyle\int\frac{2x+1}{x^3-3x^2+3x-1}dx.\)
+\item
+  \(\displaystyle\int\frac{x^3+7x^2-5x+5}{(x-1)^2(x+1)^3}dx.\)
+\item
+  \(\displaystyle\int\frac{2x^2+x+1}{(x+3)(x-1)^2}dx.\)
+\item
+  \(\displaystyle\int\frac{x+4}{x^2+1}dx.\)
+\item
+  \(\displaystyle\int\frac{x^3+x+2}{x^4+2x^2+1}dx.\)
+\item
+  \(\displaystyle\int\frac{3x^2+3x+1}{x^3+2x^2+2x+1}dx.\)
+\item
+  \(\displaystyle\int\frac{dx}{x^4+1}.\)
+\item
+  \(\displaystyle\int\frac{2x}{(x^2+x+1)^3}dx.\)
+\item
+  \(\displaystyle\int\frac{3x}{(x2+x+1)^3}dx.\)
+\item
+  \(\displaystyle\int\frac{\text{arctg x}}{1+x^2}dx.\)
+\item
+  \(\displaystyle\int\frac{x\text{arctg x}}{(1+x^2)^3}.\)
+\item
+  \(\displaystyle\int\log \sqrt{1+x^2}dx.\)
+\item
+  \(\displaystyle\int\ x log\sqrt{1+x^2}dx.\)
+\item
+  \(\displaystyle\int\frac{x^2-1}{x^2+1}.\frac{1}{\sqrt{1+x^4}}dx.\)
+\item
+  \(\displaystyle\int\text{arcsen}\sqrt{x}dx.\)
+\item
+  \(\displaystyle\int\frac{x}{1+senx}dx.\)
+\item
+  \(\displaystyle\int e^{senx}.\frac{xcos^3x-senx}{cos^2x}dx.\)
+\item
+  \(\displaystyle\int\sqrt{tgx}dx.\)
+\item
+  \(\displaystyle\int\frac{dx}{x^6+1}.\)
+\item
+  \(\displaystyle\int\log(a^2+x^2)dx.\)
+\item
+  \(\displaystyle\int\frac{1+cosx}{sen^2x}dx.\)
+\item
+  \(\displaystyle\int\frac{x+1}{\sqrt{4-x^2}}dx.\)
+\item
+  \(\displaystyle\int\ x\text{arctg x}dx.\)
+\item
+  \(\displaystyle\int sen^3 x dx.\)
+\item
+  \(\displaystyle\int\frac{sen^3 x}{cos^2 x}dx.\)
+\item
+  \(\displaystyle\int x^2\text{arctg x}dx.\)
+\item
+  \(\displaystyle\int\frac{x dx}{\sqrt{x^2-2x+2}}.\)
+\item
+  \(\displaystyle\int sec^3x\quad tg\quad x\quad dx.\)
+\item
+  \(\displaystyle\int x\quad tg^2\quad x\quad dx.\)
+\item
+  \(\displaystyle\int\frac{dx}{(a^2+x {2})^2}\)
+\item
+  \(\displaystyle\int\sqrt{1-senx dx}.\)
+\item
+  \(\displaystyle\int\text{arctg}\sqrt{x}dx.\)
+\item
+  \(\displaystyle\int sen\sqrt{x+1}dx.\)
+\item
+  \(\displaystyle\int\frac{\sqrt{x^3-2}}{x}dx.\)
+\item
+  \(\displaystyle\int log(x+\sqrt{x^2-1})dx.\)
+\item
+  \(\displaystyle\int log(x+\sqrt{x})dx.\)
+\item
+  \(\displaystyle\int\frac{dx}{x-x^{3/5}}.\)
+\item
+  \(\displaystyle\int\frac{dx}{1+sen x}.\)
+\item
+  \(\displaystyle\int\frac{dx}{3+5senx}.\)
+\end{enumerate}
+
+Evaluar la integral utilizando la integración por partes con las
+elecciones indicadas de \(u\) y \(dv\).
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \(\displaystyle\int x \ln x dx;\quad u=\ln x,\quad dv=x dx\)
+\item
+  \(\displaystyle\int\theta\sec^2\theta d\theta;\quad u=\theta,\quad dv=\sec^2\theta d\theta\)
+\end{enumerate}
+
+Evaluar la integral
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\item
+  \(\displaystyle\int x\cos 5x dx\)
+\item
+  \(\displaystyle\int xe^{-x}dx\)
+\item
+  \(\displaystyle\int re^{r/2}dr\)
+\item
+  \(\displaystyle\int t\sin 2tdt\)
+\item
+  \(\displaystyle\int x^2\sin\pi x dx\)
+\item
+  \(\displaystyle\int x^2\cos mx dx\)
+\item
+  \(\displaystyle\int \ln(2x+1)dx\)
+\item
+  \(\displaystyle\int \sin^{-1}xdx\)
+\item
+  \(\displaystyle\int\text{arc}\tan4tdt\)
+\item
+  \(\displaystyle\int p^{5}\ln pdp\)
+\item
+  \(\displaystyle\int(\ln x^2)dx\)
+\item
+  \(\displaystyle\int t^3e^tdt\)
+\item
+  \(\displaystyle\int e^{2\theta}\sin 3\theta d\theta\)
+\item
+  \(\displaystyle\int e^{\theta}\cos2\theta d\theta\)
+\item
+  \(\displaystyle\int y\sinh y dy\)
+\item
+  \(\displaystyle\int y \cosh ay dy\)
+\item
+  \(\displaystyle\int_0^\pi t\sin3t dt\)
+\item
+  \(\displaystyle\int_0^1(x^2+1)e^{-x}dx\)
+\item
+  \(\displaystyle\int_1^2\frac{\ln x}{x^2}dx\)
+\item
+  \(\displaystyle\int_1^4\sqrt{t}\ln t dt\)
+\item
+  \(\displaystyle\int_0^1\frac{y}{e^{2y}}dy\)
+\item
+  \(\displaystyle\int_{\pi/4}^{\pi/2}x\csc^2xdx\)
+\item
+  \(\displaystyle\int_0^{1/2}\cos^{-1}x dx\)
+\item
+  \(\displaystyle\int_0^1x5^xdx\)
+\item
+  \(\displaystyle\int\cos x \ln(\sin x)dx\)
+\item
+  \(\displaystyle\int_1^{\sqrt{3}}\arctan(1/x)dx\)
+\item
+  \(\displaystyle\int\cos(\ln x)dx\)
+\item
+  \(\displaystyle\int_0^1\frac{r^3}{\sqrt{4+r^2}}dr\)
+\item
+  \(\displaystyle\int_1^2x^4(\ln x)^2dx\)
+\item
+  \(\displaystyle\int_0^te^s\sin(t-s)ds\)
+\end{enumerate}
+
+Primero realice una sustitución y luego use la integración por partes
+para evaluar la integral.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{32}
+\item
+  \(\displaystyle\int\sin\sqrt{x}dx\)
+\item
+  \(\displaystyle\int_1^4e^{\sqrt{x}}dx\)
+\item
+  \(\displaystyle\int_{\sqrt{\pi/2}}^{\sqrt{\pi}}\theta^3\cos(\theta^2)d\theta\)
+\item
+  \(\displaystyle\int x^5e^{x^2}dx\)
+\item
+  \(\displaystyle\int x\cos\pi xdx\)
+\item
+  \(\displaystyle\int x^{3/2}\ln x dx\)
+\item
+  \(\displaystyle\int(2x+3)e^x dx\)
+\item
+  \(\displaystyle\int x^3 e^{x^2} dx\)
+\item
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  Demuestre que:
+\end{enumerate}
+
+\(\displaystyle\int\sin^2xdx=\frac{x}{2}-\frac{\sin 2x}{4}+C\)
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Use la parte (a) y la fórmula de reducción para evaluar
+  \(\displaystyle\int \sin^4x dx.\)
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{41}
+\item
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  Demuestre la fórmula de reducción
+\end{enumerate}
+
+\(\displaystyle\int\cos^nxdx=\frac{1}{n}\cos^{n-1}x\sin x+\frac{n-1}{n}\displaystyle\int \cos^{n-2}xdx\)
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\setcounter{enumi}{1}
+\item
+  Use la parte (a) para evaluar \(\displaystyle\int\cos^2xdx.\)
+\item
+  Use las partes (a) y (b) para evaluar \(\displaystyle\int\cos^4xdx.\)
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{42}
+\item
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  Demuestre que:
+\end{enumerate}
+
+\[\displaystyle\int_0^{\pi/2}\sin^nxdx=\frac{n-1}{n}\displaystyle\int_0^{\pi/2}\sin^{n-2}xdx\]
+Cuando \(n\ge2\) es un numero entero.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\setcounter{enumi}{1}
+\item
+  Use la parte (a) para evaluar,
+  \(\displaystyle\int_0^{\pi/2}\sin^3x dx\quad y\quad \displaystyle\int_0^{\pi/2}\sin^5dx.\)
+\item
+  Use la parte (a) para mostrar que, para las potencias impares del
+  seno,
+\end{enumerate}
+
+\[\displaystyle\int_0^{\pi/2}\sin^{2n+1}xdx=\frac{2.4.6.....2n}{3.5.7.....(2n+1)}\]
+44. Demuestre que, incluso para las potencias del seno:
+
+\[\displaystyle\int_0^{\pi/2}\sin^{2n}xdx=\frac{1.3.5.....(2n-1)}{2.4.6.....2n}\frac{\pi}{2}\]
+
+Use la integración por partes para probar la fórmula de reducción
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{44}
+\item
+  \(\displaystyle\int(\ln x)^ndx=x(\ln x)^n-n\displaystyle\int(\ln x)^{n-1}dx\)
+\item
+  \(\displaystyle\int x^ne^xdx=x^ne^x-n\displaystyle\int x^{n-1}e^xdx\)
+\item
+  \(\displaystyle\int(x^2+a^2)^ndx =\frac{x(x^2+a^2)^n}{2n+1}+\frac{2na^2}{2n+1}\displaystyle\int(x^2+a^2)^{n-1}dx\quad (n\ne-\frac{1}{2})\)
+\item
+  \(\displaystyle\int\sec^nx dx=\frac{\tan x\sec^{n-2}x}{n-1}+\frac{n-1}{n-1}\displaystyle\int\sec^{n-2}xdx\quad (n\ne1)\)
+\item
+  Usa el ejercicio 45 para encontrar \(\displaystyle\int(\ln x)^3dx.\)
+\item
+  Usa el ejercicio 46 para encontrar \(\displaystyle\int x^4e^xdx.\)
+\end{enumerate}
+
+Encuentra el área de la región delimitada por las curvas dadas.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{50}
+\item
+  \(y=xe^{-0,4x},\quad y=0,\quad x=5\)
+\item
+  \(y=5\ln x,\quad y=x\ln x\)
+\end{enumerate}
+
+\newpage
+
+Integrales trigonométricas
+
+Evaluar la integral.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \(\displaystyle\int\sin^3x\cos^2xdx\)
+\item
+  \(\displaystyle\int\sin^6x\cos^3xdx\)
+\item
+  \(\displaystyle\int\_{\pi/2}^{3\pi/4}\sin^5x\cos^3xdx\)
+\item
+  \(\displaystyle\int_0^{\pi/2}\cos^5xdx\)
+\item
+  \(\displaystyle\int\cos^5x\sin^4xdx\)
+\item
+  \(\displaystyle\int\\sin^3(mx)dx\)
+\item
+  \(\displaystyle\int_0^{\pi/2}\cos^2\theta d\theta\)
+\item
+  \(\displaystyle\int_0^{\pi/2}\sin^2(2\theta)d\theta\)
+\item
+  \(\displaystyle\int_0^{\pi}\sin^4(3t)dt\)
+\item
+  \(\displaystyle\int_0^{\pi}\cos^6\theta d\theta\)
+\item
+  \(\displaystyle\int(1+\cos\theta)^2d\theta\)
+\item
+  \(\displaystyle\int x\cos^2xdx\)
+\item
+  \(\displaystyle\int_0^{\pi/4}\sin^4xcos^2xdx\)
+\item
+  \(\displaystyle\int_0^{\pi/2}\sin^2x\cos^2xdx\)
+\item
+  \(\displaystyle\int\sin^3x\sqrt{\cos x}dx\)
+\item
+  \(\displaystyle\int\cos\theta\cos^5(sin \theta)d\theta\)
+\item
+  \(\displaystyle\int\cos^2x\tan^3xdx\)
+\item
+  \(\displaystyle\int\cot^5\theta\sin^4\theta d\theta\)
+\item
+  \(\displaystyle\int\frac{1-\sin x}{\cos x }dx\)
+\item
+  \(\displaystyle\int\cos^2 x\sin 2xdx\)
+\item
+  \(\displaystyle\int\sec^2x\tan x dx\)
+\item
+  \(\displaystyle\int_0^{\pi/2}\sec^4(t/2)dt\)
+\item
+  \(\displaystyle\int\tan^2xdx\)
+\item
+  \(\displaystyle\int\tan^4xdx\)
+\item
+  \(\displaystyle\int\sec^6tdt\)
+\item
+  \(\displaystyle\int_0^{\pi/4}\sec^4\theta\tan^4\theta d\theta\)
+\item
+  \(\displaystyle\int_0^{\pi/3}\tan^5\sec^4xdx\)
+\item
+  \(\displaystyle\int\tan^3(2x)\sec^5(2x)dx\)
+\item
+  \(\displaystyle\int\tan^3\sec xdx\)
+\item
+  \(\displaystyle\int_0^{\pi/3}\tan^5x\sec^6xdx\)
+\item
+  \(\displaystyle\int\tan^5x dx\)
+\item
+  \(\displaystyle\int\tan^6(ay)dy\)
+\item
+  \(\displaystyle\int\frac{\tan^3\theta}{\cos^4\theta}d\theta\)
+\item
+  \(\displaystyle\int\tan^2x \sec xdx\)
+\item
+  \(\displaystyle\int_{\pi/6}^{\pi/2}\cot^2 x dx\)
+\item
+  \(\displaystyle\int_{\pi/4}^{\pi/2}\cot^3x dx\)
+\item
+  \(\displaystyle\int\cot^3\alpha\csc^3\alpha d\alpha\)
+\item
+  \(\displaystyle\int\csc^4x\cot^5x dx\)
+\item
+  \(\displaystyle\int\csc x dx\)
+\item
+  \(\displaystyle\int_{\pi/6}^{\pi/3}\csc^3x dx\)
+\item
+  \(\displaystyle\int\sin 5x\sin 2x dx\)
+\item
+  \(\displaystyle\int\sin 3x\cos x dx\)
+\item
+  \(\displaystyle\int\cos 7\theta\cos 5\theta d\theta\)
+\item
+  \(\displaystyle\int\frac{\cos x+\sin x}{\sin 2x}dx\)
+\item
+  \(\displaystyle\int\frac{1-\tan^2x}{\sec^2x}dx\)
+\item
+  \(\displaystyle\int\frac{dx}{\cos x-1}\)
+\item
+  \(\displaystyle\int t\sec^2(t^2)\tan^4(t^2)dt\)
+\item
+  Si \(\displaystyle\int_0^{\pi/4}\tan^6x\sec xdx=I\) exprese el valor
+  de \(\displaystyle\int_0^{\pi/4}\tan^8x \sec x dx\) en terminos de
+  \(I\).
+\end{enumerate}
+
+Evalúa la integral indefinida. Ilustre y compruebe que su respuesta es
+razonable, graficando tanto el integrando como su antiderivada (tomando
+\(C=0\))
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{48}
+\item
+  \(\displaystyle\int\sin^5xdx\)
+\item
+  \(\displaystyle\int\sin^4x\cos^4xdx\)
+\item
+  \(\displaystyle\int\sin 3x\sin 6x dx\)
+\item
+  \(\displaystyle\int\sec^4 \frac{x}{2}dx\)
+\end{enumerate}
+
+Evaluar la integral usando la sustitución trigonométrica indicada.
+Dibuje y etiquete el triángulo rectángulo asociado.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \(\displaystyle\int\frac{1}{x^2\sqrt{x^2-9}}dx;\quad x=3\sec \theta\)
+\item
+  \(\displaystyle\int x^3\sqrt{9-x^2}dx;\quad x=3\sin\theta\)
+\item
+  \(\displaystyle\int\frac{x^3}{\sqrt{x^2+9}}dx;\quad x=3\tan\theta\)
+\item
+  \(\displaystyle\int_0^{2\sqrt{3}}\frac{x^3}{\sqrt{16-x^2}}dx\)
+\item
+  \(\displaystyle\int_{\sqrt{2}}^2\frac{1}{t^3\sqrt{t^2-1}}dt\)
+\item
+  \(\displaystyle\int_0^2x^3\sqrt{x^2+4}dx\)
+\item
+  \(\displaystyle\int\frac{1}{x^2\sqrt{25-x^2}}dx\)
+\end{enumerate}
+
+
+\end{document}

@@ -884,3 +884,70 @@ Evaluar la integral usando la sustitución trigonométrica indicada. Dibuje y et
 
 7. $\displaystyle\int\frac{1}{x^2\sqrt{25-x^2}}dx$
 
+8. $\displaystyle\int\frac{\sqrt{x^2-a^2}}{x^4}dx$
+
+9. $\displaystyle\int\frac{dx}{\sqrt{x^2+16}}$
+
+10. $\displaystyle\int\frac{t^5}{\sqrt{t^2+2}}dt$
+
+11. $\displaystyle\int\sqrt{1-4x^2}dx$
+
+12. $\displaystyle\int_0^1 x\sqrt{x^2+4}dx$
+
+13. $\displaystyle\int\frac{x^2-9}{x^3}dx$
+
+14. $\displaystyle\int\frac{du}{u\sqrt{5-u^2}}$
+
+15. $\displaystyle\int\frac{x^2}{(a^2-x^2)^{3/2}}dx$
+
+16. $\displaystyle\int\frac{dx}{x^2\sqrt{16x^2-9}}$
+
+17. $\displaystyle\int\frac{x}{\sqrt{x^2-7}}dx$
+
+18. $\displaystyle\int\frac{dx}{[(ax)^2-b^2]^{3/2}}$
+
+19. $\displaystyle\int\frac{\sqrt{1+x^2}}{x}dx$
+
+20. $\displaystyle\int\frac{t}{\sqrt{25-t^2}}dt$
+
+21. $\displaystyle\int_0^{2/3}x^3\sqrt{4-9x^2}dx$
+
+22. $\displaystyle\int_0^1\sqrt{x^2+1}dx$
+
+23. $\displaystyle\int\sqrt{5+4x-x^2}dx$
+
+24. $\displaystyle\int\frac{dt}{\sqrt{t^2-6t+13}}$
+
+25. $\displaystyle\int\frac{1}{\sqrt{9x^2+6x-8}}dx$
+
+26. $\displaystyle\int\frac{x2}{\sqrt{4x-x^2}}dx$
+
+27. $\displaystyle\int\frac{dx}{(x2^+2x+2)^2}$
+
+28. $\displaystyle\int\frac{dx}{(5-4x-x^2)^{5/2}}$
+
+29. $\displaystyle\int x\sqrt{1-x^4}dx$
+
+30. $\displaystyle\int_0^{\pi/2}\frac{\sqrt{\text{cos}t}}{\sqrt{1+\text{sin}^2t}}dt$
+
+31. 
+
+a) Use la sustitución trigonométrica para mostrar que
+
+$\displaystyle\int\frac{dx}{\sqrt{x^2+a^2}}=\ln (x+\sqrt{x^2+a^2})+C$
+
+b)Usa la sustitución hiperbólica $x=a \sin h t$ para mostrar que
+
+$\displaystyle\int\frac{dx}{\sqrt{x^2+a^2}}=\sin h^{-1}\left(\frac{x}{a}\right)+ C$
+
+Evaluar la integral
+
+1. $\displaystyle\int\frac{x}{x-6}dx$
+
+2. $\displaystyle\int\frac{r^2}{r+4}dr$
+
+3. $\displaystyle\int\frac{x-9}{(x+5)(x-2)}dx$
+
+4. $\displaystyle\int\frac{1}{(t+4)(t-1)}dt$
+
+5. $\displaystyle\int_2^3\frac{1}{x^2-1}dx$
